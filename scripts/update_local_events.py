@@ -19,10 +19,22 @@ TZ = ZoneInfo("America/Los_Angeles")
 
 
 def clean(value):
-    return re.sub(
-        r"\s+", " ",
-        html.unescape(re.sub(r"<[^>]*>", " ", str(value or "")))
-    ).strip()
+    text = str(value or "")
+
+    # Remove embedded CSS and JavaScript blocks.
+    text = re.sub(
+        r"<(style|script)\b[^>]*>.*?</\1>",
+        " ",
+        text,
+        flags=re.IGNORECASE | re.DOTALL
+    )
+
+    # Remove remaining HTML tags.
+    text = re.sub(r"<[^>]*>", " ", text)
+
+    # Decode HTML entities and normalize whitespace.
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def date_value(value):
