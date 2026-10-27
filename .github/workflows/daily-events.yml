@@ -3,6 +3,10 @@ name: Refresh winery events
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-events.yml'
   schedule:
     - cron: '0 14 * * *'
 
