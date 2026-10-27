@@ -1,0 +1,51 @@
+name: Test Explore Elk Grove importer
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/update_explore_elkgrove.py'
+      - '.github/workflows/test-explore-events.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install scraper dependencies
+        run: python -m pip install 'requests>=2.31,<3' 'beautifulsoup4>=4.12,<5'
+      - name: Compile importer
+        run: python -m py_compile scripts/update_explore_elkgrove.py
+      - name: Collect Explore Elk Grove events
+        run: python scripts/update_explore_elkgrove.py
+      - name: Validate any collected event data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/explore_events.json')
+          if not p.exists():
+              print('No verified dated events were collected; existing public feed remains untouched.')
+              raise SystemExit(0)
+          data = json.loads(p.read_text(encoding='utf-8'))
+          events = data.get('events', [])
+          for e in events:
+              assert all(e.get(k) for k in ('id', 'title', 'date', 'venue', 'url')), e
+              assert e.get('region') == 'elk-grove', e
+          print(f'Validated {len(events)} Explore Elk Grove events')
+          for e in events[:20]:
+              print(e['date'], e['title'], '-', e['venue'])
+          PY
+      - name: Upload test result for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: explore-events-test
+          path: data/explore_events.json
+          if-no-files-found: ignore
