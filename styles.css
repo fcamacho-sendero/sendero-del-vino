@@ -11,3 +11,11 @@
 /* Custom Golden Hour Vineyard Discoveries hero uploaded by site owner. */
 .hero{background-image:linear-gradient(90deg,rgba(28,15,18,.12),rgba(28,15,18,0) 70%),url('./Golden%20Hour%20Vineyard%20Discoveries.png');background-position:center center;background-size:cover}
 @media(max-width:600px){.hero{background-position:60% center;background-image:linear-gradient(90deg,rgba(28,15,18,.38),rgba(28,15,18,.08)),url('./Golden%20Hour%20Vineyard%20Discoveries.png')}}
+
+/* Banner image includes its own typography: do not print the HTML copy twice. */
+.hero{position:relative;min-height:0;aspect-ratio:2096/704;background-image:url('./Golden%20Hour%20Vineyard%20Discoveries.png');background-size:100% 100%;background-position:center}
+.hero-shade{width:100%;height:100%;padding:0;position:absolute;inset:0}
+.hero-shade .eyebrow,.hero-shade h1,.hero-shade p:not(.eyebrow){display:none}
+.hero-shade .hero-button{position:absolute;left:6.2%;top:73%;width:17%;height:12%;margin:0;padding:0;opacity:0}
+.hero-shade .hero-button:focus-visible{opacity:1;outline:3px solid #c8a46a}
+@media(max-width:600px){.hero{min-height:0;aspect-ratio:2096/704;background-image:url('./Golden%20Hour%20Vineyard%20Discoveries.png');background-size:100% 100%;background-position:center}}
