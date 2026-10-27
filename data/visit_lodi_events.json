@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-10-27T16:21:33.393016-07:00",
+  "events": [
+    {
+      "id": "70d23e6d386e2c4c2b",
+      "title": "Lodi Wine & Chocolate Weekend",
+      "venue": "Participating Wineries & Venues",
+      "region": "lodi",
+      "category": "festival",
+      "date": "2027-02-05",
+      "endDate": "2027-02-07",
+      "start": "16:00",
+      "end": "15:59",
+      "location": "Lodi, CA",
+      "description": "Sip, Savor and Celebrate in Lodi Wine CountryLodi Wine & Chocolate Weekend returns February 6â7, 2027, bringing together two of lifeâs sweetest pleasures:",
+      "url": "https://visitlodi.com/events/lodi-wine-chocolate-weekend/"
+    }
+  ],
+  "sources": [
+    "https://visitlodi.com/events/"
+  ]
+}
