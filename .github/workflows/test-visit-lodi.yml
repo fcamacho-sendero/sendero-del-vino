@@ -1,0 +1,40 @@
+name: Test Visit Lodi importer
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/update_visit_lodi.py'
+      - '.github/workflows/test-visit-lodi.yml'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4
+      - run: python -m py_compile scripts/update_visit_lodi.py
+      - run: python scripts/update_visit_lodi.py
+      - name: Validate event feed if generated
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("data/visit_lodi_events.json")
+          if p.exists():
+              feed = json.loads(p.read_text())
+              for event in feed["events"]:
+                  assert event["region"] == "lodi"
+                  assert event["date"] <= event["endDate"]
+                  assert event["url"].startswith("https://visitlodi.com/")
+              print("Validated", len(feed["events"]), "Visit Lodi events")
+          else:
+              print("No verified wine events; importer preserved existing data")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visit-lodi-test-feed
+          path: data/visit_lodi_events.json
+          if-no-files-found: ignore
