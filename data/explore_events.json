@@ -1,0 +1,36 @@
+{
+  "updatedAt": "2026-10-27T15:28:50.652255-07:00",
+  "events": [
+    {
+      "id": "53ecf29c462fea2884",
+      "title": "Elk Grove Hallo-Wine Trail — Sip & Stroll",
+      "venue": "Participating Elk Grove Wineries",
+      "region": "elk-grove",
+      "category": "festival",
+      "date": "2026-10-29",
+      "endDate": "2026-11-01",
+      "start": "00:00",
+      "end": "23:59",
+      "location": "Elk Grove, CA",
+      "description": "Sip your way through fall at the Hallo-Wine Trail! Enjoy local wines, spooky fun, and Elk Grove charm on this festive tasting trail. Details here!",
+      "url": "https://www.exploreelkgrove.com/events/hallo-wine-trail-2/"
+    },
+    {
+      "id": "2e74bb3ae68b42aae3",
+      "title": "Halloween Party at Christopher Cellars",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "start": "17:00",
+      "end": "21:00",
+      "location": "Elk Grove, CA",
+      "description": "We're switching things up this Friday night at Christopher Cellars for a festive Halloween celebration! Join us for an evening of wine, music, costumes, and",
+      "url": "https://www.exploreelkgrove.com/events/halloween-party-at-christopher-cellars/"
+    }
+  ],
+  "sources": [
+    "https://www.exploreelkgrove.com/events/"
+  ]
+}
