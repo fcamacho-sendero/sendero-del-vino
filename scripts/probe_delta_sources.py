@@ -85,6 +85,33 @@ def probe(name, url):
                 embeds.append(src.split("?")[0])
         result["calendar_embed_hints"] = list(dict.fromkeys(embeds))[:20]
         result["html_event_keyword_count"] = len(re.findall(r"\\b(?:wine tasting|wine event|winery event)\\b", soup.get_text(" ", strip=True), re.I))
+        if name == "visit_lodi":
+            detail_pages = []
+            for link in links:
+                if len(detail_pages) >= 8:
+                    break
+                path = urlparse(link["url"]).path.rstrip("/")
+                if not path.startswith("/events/") or path in ("/events", "/events/submit-an-event", "/events/annual-event-festivals"):
+                    continue
+                try:
+                    page = requests.get(link["url"], timeout=15, headers={"User-Agent": "SenderoDelVinoSourceAudit/1.0"})
+                    page.raise_for_status()
+                    detail = BeautifulSoup(page.text, "html.parser")
+                    structured = []
+                    for script in detail.select('script[type="application/ld+json"]'):
+                        try:
+                            structured.extend(event_objects(json.loads(script.string or script.get_text())))
+                        except (ValueError, TypeError):
+                            continue
+                    detail_pages.append({
+                        "url": link["url"],
+                        "http_status": page.status_code,
+                        "structured_events": [{"title": e["name"], "startDate": e["startDate"], "endDate": e.get("endDate")} for e in structured[:10]],
+                        "time_elements": [{"datetime": t.get("datetime"), "text": t.get_text(" ", strip=True)[:100]} for t in detail.select("time[datetime]")[:10]]
+                    })
+                except requests.RequestException as exc:
+                    detail_pages.append({"url": link["url"], "error": type(exc).__name__})
+            result["detail_page_diagnostics"] = detail_pages
         result["notes"] = "Discovery only; events are not imported or published."
     except requests.RequestException as exc:
         result["error"] = type(exc).__name__
