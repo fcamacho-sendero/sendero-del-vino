@@ -24,6 +24,8 @@ jobs:
         run: python scripts/update_explore_elkgrove.py
       - name: Collect Oak Farm events
         run: python scripts/update_oak_farm.py
+      - name: Collect Visit Lodi wine events
+        run: python scripts/update_visit_lodi.py
       - name: Commit updated event data
         run: |
           git config user.name 'sendero-events-bot'
@@ -31,6 +33,7 @@ jobs:
           git add data/events.json data/local_events.json
           if [ -f data/explore_events.json ]; then git add data/explore_events.json; fi
           if [ -f data/oak_farm_events.json ]; then git add data/oak_farm_events.json; fi
+          if [ -f data/visit_lodi_events.json ]; then git add data/visit_lodi_events.json; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Update official winery events'
             git push
