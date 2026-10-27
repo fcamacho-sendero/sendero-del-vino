@@ -13,7 +13,8 @@ from bs4 import BeautifulSoup
 
 SOURCES = {
     "old_sugar_mill": "https://oldsugarmill.com/events-calendar/",
-    "grand_island_vineyards": "https://www.grandislandvineyards.com/",
+    "grand_island_vineyards": "https://www.grandislandvineyards.com/collection/events",
+    "oak_farm_vineyards": "https://www.oakfarmvineyards.com/upcoming-events/",
 }
 
 def event_objects(value):
