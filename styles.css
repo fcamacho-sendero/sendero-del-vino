@@ -7,3 +7,7 @@
 
 /* Brighter, welcoming wine-country hero with readable copy. */
 .hero{background-color:#b48a57}.hero h1{text-shadow:0 2px 16px rgba(29,12,20,.30)}.hero-shade>p{text-shadow:0 1px 8px rgba(29,12,20,.45)}
+
+/* Custom Golden Hour Vineyard Discoveries hero uploaded by site owner. */
+.hero{background-image:linear-gradient(90deg,rgba(28,15,18,.12),rgba(28,15,18,0) 70%),url('./Golden%20Hour%20Vineyard%20Discoveries.png');background-position:center center;background-size:cover}
+@media(max-width:600px){.hero{background-position:60% center;background-image:linear-gradient(90deg,rgba(28,15,18,.38),rgba(28,15,18,.08)),url('./Golden%20Hour%20Vineyard%20Discoveries.png')}}
