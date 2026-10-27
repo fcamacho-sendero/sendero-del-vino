@@ -6,7 +6,7 @@ Event records can be considered for a later importer.
 import json
 import re
 from datetime import datetime, timezone
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -58,6 +58,33 @@ def probe(name, url):
                     "url": e.get("url"),
                 })
         result["candidate_count"] = len(result["candidate_events"])
+        # Discover likely event detail links and embedded calendar providers.
+        # This is diagnostic only: no links are followed or published.
+        links = []
+        seen = set()
+        for anchor in soup.select("a[href]"):
+            href = urljoin(url, anchor.get("href", ""))
+            parsed_link = urlparse(href)
+            if parsed_link.scheme not in ("http", "https"):
+                continue
+            title = anchor.get_text(" ", strip=True)[:100]
+            hint = (title + " " + parsed_link.path).lower()
+            if not re.search(r"event|wine|winery|tasting|festival|calendar|music", hint):
+                continue
+            canonical = href.split("#")[0]
+            if canonical not in seen:
+                seen.add(canonical)
+                links.append({"title": title, "url": canonical})
+            if len(links) >= 35:
+                break
+        result["likely_event_links"] = links
+        embeds = []
+        for tag in soup.select("iframe[src], script[src]"):
+            src = urljoin(url, tag.get("src", ""))
+            if re.search(r"event|calendar|ticket|obtainwine|algolia|artsopolis", src, re.I):
+                embeds.append(src.split("?")[0])
+        result["calendar_embed_hints"] = list(dict.fromkeys(embeds))[:20]
+        result["html_event_keyword_count"] = len(re.findall(r"\\b(?:wine tasting|wine event|winery event)\\b", soup.get_text(" ", strip=True), re.I))
         result["notes"] = "Discovery only; events are not imported or published."
     except requests.RequestException as exc:
         result["error"] = type(exc).__name__
