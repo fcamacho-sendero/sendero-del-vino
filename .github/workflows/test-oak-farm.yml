@@ -1,0 +1,21 @@
+name: Test Oak Farm event importer
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - run: python -m py_compile scripts/update_oak_farm.py
+      - run: node --check app.js
+      - run: python scripts/update_oak_farm.py
+      - run: python -c "import json; d=json.load(open('data/oak_farm_events.json')); assert len(d['events']) > 0; print(len(d['events']))"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: oak-farm-events-preview
+          path: data/oak_farm_events.json
