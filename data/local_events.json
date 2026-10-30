@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-29T07:43:14.769746-07:00",
+  "updatedAt": "2026-10-30T07:44:53.955682-07:00",
   "events": [
-    {
-      "id": "df0f3332a4c325e465",
-      "title": "Murder Mystery at The Cellar: A Haunting 40 Years in the Making",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-10-29",
-      "endDate": "2026-10-29",
-      "start": "18:00",
-      "end": "21:00",
-      "location": "Elk Grove, CA",
-      "description": "This murder mystery is going to be one for the books! Forty years ago, a mysterious murder took place in the cellar. The crime was never solved, and the victim's spirit has been haunting the grounds ever since. Now, four decades later, the ghost is ready to reveal the truth. But will you be able to uncover the killer before the night is over? Join us at Christopher Cellars for an immersive evening of mystery, suspense, and a little supernatural activity. Arrive dressed in your Halloween best, enjoy a complimentary glass of wine included with your ticket, and prepare to follow the clues, question the suspects, and uncover secrets buried for 40 years. Throughout the evening, enjoy light bites, specialty drinks available for purchase, and take part in a séance where the spirits may hold the final clue to solving the mystery. Your ticket includes: An interactive murder mystery experience One complimentary glass of Christopher Cellars wine Light bites throughout the evening A séance to help uncover the killer Will the spirit finally find peace, or will the truth remain buried in The Cellar? Costumes are encouraged. Mystery awaits. Get Your Tickets Here!",
-      "url": "https://www.christophercellars.com/upcoming-events/murder-mystery-at-the-cellar-a-haunting-40-years-in-the-making"
-    },
     {
       "id": "4fd213ecdf9bb65306",
       "title": "Fright Night Halloween Party",
@@ -28,6 +14,20 @@
       "location": "Elk Grove, CA",
       "description": "This Halloween, we’re bringing a little mystery, a little magic, and plenty of good wine to Christopher Cellars! Join us for our annual Fright Night Halloween Party, featuring an evening of music, costumes, wine, tarot readings, and Halloween festivities inside our historic winery. Wine & Tarot: Let the Cards Guide You We’re adding something a little mystical to this year’s celebration! Step into the world of ancient wisdom and modern energy with a special Wine & Tarot experience featuring psychic advisor Melody. Throughout the evening, guests will have the opportunity to explore the mysterious world of spiritual readings, including: • Tarot Card Readings: Discover what the cards may reveal about love, relationships, career, and life’s possibilities. • Palm Readings: Explore the ancient tradition of palmistry and the stories believed to be written in the lines of your hands. • Crystal Ball Readings: Experience a little Halloween mysticism through the art of crystal gazing. Whether you’re a believer, simply curious, or looking for something different to experience with friends, this is a fun opportunity to embrace the spirit of Halloween. DJ Torrey Tee | 5:00 PM – 8:00 PM DJ Torrey Tee is bringing the soundtrack to our Halloween celebration! Expect a lively mix of crowd favorites, throwbacks, and dance-worthy hits throughout the evening. Halloween Costume Contest Come dressed in your Halloween best! Whether you’re going spooky, glamorous, creative, or completely outrageous, we’ll be hosting a costume contest with a chance to win. Halloween Wine & Candy Pairing Flight Who says Halloween candy is just for kids? We’re putting a grown-up twist on trick-or-treating with a special Halloween wine flight featuring Christopher Cellars wines paired with classic Halloween candies. Explore how sweetness, acidity, tannins, and fruit characteristics interact with some of your favorite seasonal treats. Specialty Halloween Drinks In addition to our small-lot wines available by the glass and bottle, we’ll be serving festive Halloween-inspired specialty drinks throughout the evening. Food Truck On-Site Come hungry! We’ll have West Coast Taco Bar serving delicious food throughout the celebration.",
       "url": "https://www.christophercellars.com/upcoming-events/fright-night-halloween-party"
+    },
+    {
+      "id": "90f501d3d50716caa4",
+      "title": "Taco Tuesday",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-03",
+      "endDate": "2026-11-03",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "Join us this Tuesday as we bring the energy back to the start of the week. Maiz Mexican Catering will be on-site serving a lineup of bold, authentic flavors. Expect fresh tacos, vibrant salsas, and dishes built to pair perfectly with a glass of wine in hand. It’s casual, flavorful, and exactly how a Tuesday should feel. We’re pouring Sangria on tap! Bring your 1-liter flip top bottle and take home our custom house sangria, crafted to be refreshing, fruit-driven, and perfect for the season or enjoy it by the glass. No reservations needed. Come out, grab some tacos, and settle in with a glass. Tuesdays just found their rhythm.",
+      "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday"
     },
     {
       "id": "8ebb1882aed1db706c",
@@ -72,6 +72,20 @@
       "url": "https://www.christophercellars.com/upcoming-events/friday-night-with-bluesoul-acoustics"
     },
     {
+      "id": "d78a02264498409e09",
+      "title": "Taco Tuesday",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-10",
+      "endDate": "2026-11-10",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "Join us this Tuesday as we bring the energy back to the start of the week. Maiz Mexican Catering will be on-site serving a lineup of bold, authentic flavors. Expect fresh tacos, vibrant salsas, and dishes built to pair perfectly with a glass of wine in hand. It’s casual, flavorful, and exactly how a Tuesday should feel. We’re pouring Sangria on tap! Bring your 1-liter flip top bottle and take home our custom house sangria, crafted to be refreshing, fruit-driven, and perfect for the season or enjoy it by the glass. No reservations needed. Come out, grab some tacos, and settle in with a glass. Tuesdays just found their rhythm.",
+      "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday-1"
+    },
+    {
       "id": "da858b2e5201a345a0",
       "title": "R&B Night",
       "venue": "Christopher Cellars",
@@ -114,6 +128,20 @@
       "url": "https://www.christophercellars.com/upcoming-events/wine-club-party-2"
     },
     {
+      "id": "275c5e73d36efba10b",
+      "title": "Taco Tuesday",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-17",
+      "endDate": "2026-11-17",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "Join us this Tuesday as we bring the energy back to the start of the week. Maiz Mexican Catering will be on-site serving a lineup of bold, authentic flavors. Expect fresh tacos, vibrant salsas, and dishes built to pair perfectly with a glass of wine in hand. It’s casual, flavorful, and exactly how a Tuesday should feel. We’re pouring Sangria on tap! Bring your 1-liter flip top bottle and take home our custom house sangria, crafted to be refreshing, fruit-driven, and perfect for the season or enjoy it by the glass. No reservations needed. Come out, grab some tacos, and settle in with a glass. Tuesdays just found their rhythm.",
+      "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday-2"
+    },
+    {
       "id": "83372e035e7751f591",
       "title": "Live Band Karaoke Night with Karaoke Hero",
       "venue": "Christopher Cellars",
@@ -140,6 +168,20 @@
       "location": "Elk Grove, CA",
       "description": "Live Music: 4:30–7:30 PM | Local Food Truck We're bringing Friday Night Live Music indoors with mulled wine warming on the bar, acoustic guitar filling the cellar, and the charm of our historic barn, we're looking forward to a more intimate Friday at Christopher Cellars. Live Music with Jon Spivack Joining us from 4:30–7:30 PM is Sacramento guitarist Jon Spivack, a seasoned musician who has been performing throughout the region for more than 25 years. Jon's music moves effortlessly between jazz, folk, blues, and Latin influences, drawing on a diverse repertoire of familiar melodies and timeless classics. His album Branching Out showcases his versatility, from solo jazz guitar to folk and blues duets and Latin-inspired arrangements. Having performed at venues including the Crocker Art Museum, Shady Lady, and several Northern California wineries, Jon brings a thoughtful, expressive approach to the guitar that's particularly suited to the intimate setting of our cellar. Mulled Wine & Seasonal Sips We'll be serving warm, aromatic mulled wine alongside our collection of small-lot Christopher Cellars wines, available by the glass, bottle, or tasting flight. A local food truck will also be on-site serving dinner throughout the evening. This will be an entirely indoor event, with limited seating available on a first-come, first-served basis. Arrive early to find a spot and spend your Friday evening enjoying live guitar, a glass of wine, and the quieter side of the winery.",
       "url": "https://www.christophercellars.com/upcoming-events/friday-night-with-jon-spivack"
+    },
+    {
+      "id": "b37762b3691eae54f7",
+      "title": "Taco Tuesday",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-24",
+      "endDate": "2026-11-24",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "Join us this Tuesday as we bring the energy back to the start of the week. Maiz Mexican Catering will be on-site serving a lineup of bold, authentic flavors. Expect fresh tacos, vibrant salsas, and dishes built to pair perfectly with a glass of wine in hand. It’s casual, flavorful, and exactly how a Tuesday should feel. We’re pouring Sangria on tap! Bring your 1-liter flip top bottle and take home our custom house sangria, crafted to be refreshing, fruit-driven, and perfect for the season or enjoy it by the glass. No reservations needed. Come out, grab some tacos, and settle in with a glass. Tuesdays just found their rhythm.",
+      "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday-3"
     },
     {
       "id": "a8664a143d07aa3d55",

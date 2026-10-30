@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-10-29T07:43:26.754017-07:00",
+  "updatedAt": "2026-10-30T07:44:58.932658-07:00",
   "events": [
-    {
-      "id": "53ecf29c462fea2884",
-      "title": "Elk Grove Hallo-Wine Trail — Sip & Stroll",
-      "venue": "Participating Elk Grove Wineries",
-      "region": "elk-grove",
-      "category": "festival",
-      "date": "2026-10-29",
-      "endDate": "2026-11-01",
-      "start": "00:00",
-      "end": "23:59",
-      "location": "Elk Grove, CA",
-      "description": "Sip your way through fall at the Hallo-Wine Trail! Enjoy local wines, spooky fun, and Elk Grove charm on this festive tasting trail. Details here!",
-      "url": "https://www.exploreelkgrove.com/events/hallo-wine-trail-2/"
-    },
     {
       "id": "2e74bb3ae68b42aae3",
       "title": "Halloween Party at Christopher Cellars",
@@ -28,6 +14,20 @@
       "location": "Elk Grove, CA",
       "description": "We're switching things up this Friday night at Christopher Cellars for a festive Halloween celebration! Join us for an evening of wine, music, costumes, and",
       "url": "https://www.exploreelkgrove.com/events/halloween-party-at-christopher-cellars/"
+    },
+    {
+      "id": "4c2994ec92c1032bba",
+      "title": "Chili Cook-Off at McConnell Estates Winery",
+      "venue": "McConnell Estates",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "start": "13:00",
+      "end": "16:00",
+      "location": "Elk Grove, CA",
+      "description": "Get ready for the showdown of the year! Our tenth annual Chili Cook-Off is going down on Saturday, November 7th!Join us from 1:00pm to 4:00pm in our barn area",
+      "url": "https://www.exploreelkgrove.com/events/chili-cook-off-at-mcconnell-estates-winery-2/"
     }
   ],
   "sources": [
