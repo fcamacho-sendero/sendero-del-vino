@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T07:44:59.527684-07:00",
+  "updatedAt": "2026-10-31T07:26:22.270328-07:00",
   "events": [
     {
       "id": "104ecde66c7dec2a5c",
@@ -114,6 +114,20 @@
       "url": "https://www.oakfarmvineyards.com/events-calendar/christmas-holiday-stroll-adult-nights-dec5/"
     },
     {
+      "id": "9fc203878423bb88d1",
+      "title": "Thursday Night Music and Food / Ben Cole",
+      "venue": "Oak Farm Vineyards",
+      "region": "lodi",
+      "category": "music",
+      "date": "2026-12-10",
+      "endDate": "2026-12-10",
+      "start": "",
+      "end": "",
+      "location": "Lodi, CA",
+      "description": "Music by Ben Cole  Thursday, December 10 | 5:00 to 8:00 PM | No cover  Seating is first come, first served.  Live music from Ben Cole.  Thursday nights feature a special entrée and all the options from our shareables menu.",
+      "url": "https://www.oakfarmvineyards.com/events-calendar/thursday-night-music-and-food-ben-cole-2/"
+    },
+    {
       "id": "0f2f17a25121de535e",
       "title": "Christmas Holiday Stroll (Family Night 1)",
       "venue": "Oak Farm Vineyards",
@@ -154,20 +168,6 @@
       "location": "Lodi, CA",
       "description": "Celebrate the Season at Oak Farm Vineyards  Bundle up and join us for our annual Christmas Stroll! This year, we’ve created two distinct experiences so you can celebrate the holidays your way. Whether you are looking for a festive family evening or a cozy night out with friends, we have a stroll for you.     Christmas Stroll (Adult Nights)    December 4th, 5th, 17th, & 18th 6:00 PM – 9:00 PM (VIP hour starts at 5:00 PM)  Unwind at the vineyard for a relaxing, adults-focused holiday evening. Stroll through our breathtaking Christmas light displays and enjoy a cozy wagon ride around the estate with a complimentary welcome pour of Oak Farm wine. Spiked cider, wine by the glass or bottle, and delicious bites from local food trucks will also be available for purchase. VIP ticket gets you 1 hour early access entry (available for wine club members only).      More info to follow  21 and over only. No minors.",
       "url": "https://www.oakfarmvineyards.com/events-calendar/christmas-holiday-stroll-adult-nights-dec17/"
-    },
-    {
-      "id": "4659076ac580eb2b7a",
-      "title": "Christmas Holiday Stroll (Adult Nights)",
-      "venue": "Oak Farm Vineyards",
-      "region": "lodi",
-      "category": "festival",
-      "date": "2026-12-18",
-      "endDate": "2026-12-18",
-      "start": "",
-      "end": "",
-      "location": "Lodi, CA",
-      "description": "Celebrate the Season at Oak Farm Vineyards  Bundle up and join us for our annual Christmas Stroll! This year, we’ve created two distinct experiences so you can celebrate the holidays your way. Whether you are looking for a festive family evening or a cozy night out with friends, we have a stroll for you.     Christmas Stroll (Adult Nights)    December 4th, 5th, 17th, & 18th 6:00 PM – 9:00 PM (VIP hour starts at 5:00 PM)  Unwind at the vineyard for a relaxing, adults-focused holiday evening. Stroll through our breathtaking Christmas light displays and enjoy a cozy wagon ride around the estate with a complimentary welcome pour of Oak Farm wine. Spiked cider, wine by the glass or bottle, and delicious bites from local food trucks will also be available for purchase. VIP ticket gets you 1 hour early access entry (available for wine club members only).      More info to follow  21 and over only. No minors.",
-      "url": "https://www.oakfarmvineyards.com/events-calendar/christmas-holiday-stroll-adult-nights-dec18/"
     }
   ],
   "sources": [
