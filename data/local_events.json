@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-03T06:43:30.646439-08:00",
+  "updatedAt": "2026-11-04T06:49:26.440221-08:00",
   "events": [
-    {
-      "id": "90f501d3d50716caa4",
-      "title": "Taco Tuesday",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-03",
-      "endDate": "2026-11-03",
-      "start": "16:00",
-      "end": "20:00",
-      "location": "Elk Grove, CA",
-      "description": "Join us this Tuesday as we bring the energy back to the start of the week. Maiz Mexican Catering will be on-site serving a lineup of bold, authentic flavors. Expect fresh tacos, vibrant salsas, and dishes built to pair perfectly with a glass of wine in hand. It’s casual, flavorful, and exactly how a Tuesday should feel. We’re pouring Sangria on tap! Bring your 1-liter flip top bottle and take home our custom house sangria, crafted to be refreshing, fruit-driven, and perfect for the season or enjoy it by the glass. No reservations needed. Come out, grab some tacos, and settle in with a glass. Tuesdays just found their rhythm.",
-      "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday"
-    },
     {
       "id": "8ebb1882aed1db706c",
       "title": "R&B Night",
