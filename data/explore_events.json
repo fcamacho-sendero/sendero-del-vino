@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T06:49:31.391119-08:00",
+  "updatedAt": "2026-11-05T06:49:06.246091-08:00",
   "events": [
     {
       "id": "f24527f7483d58b687",
@@ -70,6 +70,20 @@
       "location": "Elk Grove, CA",
       "description": "Sip wine and learn how to write in script!",
       "url": "https://www.exploreelkgrove.com/events/sip-script-calligraphy-workshop-at-ever-after-wine/"
+    },
+    {
+      "id": "2c67417707afc04afc",
+      "title": "I Heart R&B Nights at Ever After Wine",
+      "venue": "Ever After Wine",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-13",
+      "endDate": "2026-11-13",
+      "start": "18:00",
+      "end": "22:00",
+      "location": "Elk Grove, CA",
+      "description": "DJ TuneG with 90s-00s-now R&B and a splash of hip hop!",
+      "url": "https://www.exploreelkgrove.com/events/i-heart-r-b-nights-at-ever-after-wine/"
     }
   ],
   "sources": [

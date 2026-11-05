@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-04T06:49:26.440221-08:00",
+  "updatedAt": "2026-11-05T06:49:00.689392-08:00",
   "events": [
-    {
-      "id": "8ebb1882aed1db706c",
-      "title": "R&B Night",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-04",
-      "endDate": "2026-11-04",
-      "start": "16:00",
-      "end": "20:00",
-      "location": "Elk Grove, CA",
-      "description": "Every Wednesday | 4–8 PM DJ Torrey Tee | 5:30–7:30 PM Make Wednesday nights a little more interesting at Christopher Cellars with R&B Night featuring our resident DJ, Torrey Tee. Join us inside the cellar for an evening of R&B, Hip-Hop, Bay Area classics, and throwbacks, paired with small-lot Christopher Cellars wines and great local food. Our tasting room is open from 4–8 PM , with wines available by the glass, bottle, or tasting flight, along with our signature wine slushies and other seasonal selections. This Week's Food Truck Jerk-N-Juice Jerk-N-Juice brings bold Caribbean-inspired flavors, vibrant spices, and island-style cooking to the table. From savory jerk-seasoned dishes to flavorful sides, their food is a delicious addition to an evening of wine and R&B at Christopher Cellars. Meet DJ Torrey Tee Torrey Tee is a Sacramento-based DJ, creative, and cultural curator known for his ability to read a room and create an atmosphere that brings people together. Blending R&B, Hip-Hop, Bay Area favorites, and familiar throwbacks, Torrey moves effortlessly between laid-back grooves and upbeat selections that keep the energy going throughout the evening. His experience spans Sacramento nightlife, festivals, weddings, corporate events, and community gatherings, including collaborations with Macy's, the City of Sacramento, St. HOPE, Coin-Op, and the R&B Running Series. Beyond music, Torrey is a photographer, filmmaker, and founder of Full Effect Films and Full Effect Entertainment. His creative background brings a thoughtful approach to every performance, making each Wednesday night feel a little different.",
-      "url": "https://www.christophercellars.com/upcoming-events/rb-night"
-    },
     {
       "id": "d0718311acf398d6ad",
       "title": "Closed for A Private Event",
@@ -42,6 +28,20 @@
       "location": "Elk Grove, CA",
       "description": "Live Music 4:30–7:30 PM | JJ's Fusion Eats We're taking Friday Night Live Music inside the cellar as the November evenings begin to cool down. With the music a little closer, mulled wine warming on the bar, and the historic barn as our backdrop, we're looking forward to a different kind of Friday at Christopher Cellars. BlueSoul Acoustic joins us from 4:30–7:30 PM, bringing a blend of folk, Americana, indie, and acoustic favorites. Led by Montreal-born musician Terry MacNeill, whose performing career spans more than three decades, BlueSoul draws from artists including Neil Young, Dave Matthews Band, Coldplay, and Oasis. Expect familiar songs, expressive vocals, and the kind of acoustic performance that feels right at home in a smaller setting. JJ's Fusion Eats will be serving their creative, globally inspired menu, including gourmet burgers and chicken sandwiches. At the bar, we'll be pouring our seasonal mulled wine , along with our small-lot wines available by the glass, bottle, or tasting flight. This will be an entirely indoor event, with limited seating available on a first-come, first-served basis. Arrive early, find a spot, and enjoy a Friday evening tucked away in the cellar.",
       "url": "https://www.christophercellars.com/upcoming-events/friday-night-with-bluesoul-acoustics"
+    },
+    {
+      "id": "84936d80d79a99cd25",
+      "title": "Sip, Shop & Support Small Business",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "start": "12:00",
+      "end": "17:00",
+      "location": "Elk Grove, CA",
+      "description": "Join us this Saturday as we welcome Shelby Joy Creations for a special pop-up at Christopher Cellars! Shop a collection of handmade scrunchies, pot cozies, and crocheted creations, perfect for getting a head start on holiday gifts or treating yourself to something unique. Sip on your favorite Christopher Cellars wines, browse Shelby’s handmade creations, and spend the afternoon supporting a local small business. No reservations needed. All ages welcome!",
+      "url": "https://www.christophercellars.com/upcoming-events/sip-shop-support-small-business"
     },
     {
       "id": "d78a02264498409e09",
@@ -82,7 +82,7 @@
       "start": "16:00",
       "end": "20:00",
       "location": "Elk Grove, CA",
-      "description": "Live Music: 4:30–7:30 PM | Local Food Truck We're bringing Friday Night Live Music with mulled wine warming on the bar, live acoustic music filling the cellar, and the character of our historic barn setting the scene. We're looking forward to a more intimate Friday at Christopher Cellars. Live Music with Linden Wood Joining us from 4:30–7:30 PM is Linden Wood , a Sacramento-based singer, songwriter, and guitarist whose music blends Americana, alternative country, roots rock, and acoustic storytelling. Performing since his early teenage years, Linden has spent more than a decade building a following throughout Northern California. His musical background stretches from intimate solo acoustic performances to heavier rock and metal, including appearances at the Warped Tour and performances alongside touring acts such as Trivium, Soulfly, Prong, and Floater. As a solo artist, Linden brings a roots-inspired sound, expressive vocals, and a natural connection with his audience. His ability to move between musical styles gives his performances a distinctive character, combining the energy of rock with the warmth and storytelling of Americana. We're excited to welcome Linden into the cellar for an evening where his music can be enjoyed in a more personal setting. Mulled Wine & Seasonal Sips We'll be serving warm, aromatic mulled wine , alongside our collection of small-lot Christopher Cellars wines available by the glass, bottle, or tasting flight. A local food truck will also be on-site serving dinner throughout the evening. This will be an entirely indoor event, with limited seating available on a first-come, first-served basis. Arrive early to find a spot and enjoy live music in the cellar.",
+      "description": "Live Music: 4:30–7:30 PM | Local Food Truck We're bringing Friday Night Live Music with mulled wine warming on the bar, live acoustic music filling the cellar, and the character of our historic barn setting the scene. We're looking forward to a more intimate Friday at Christopher Cellars. Live Music with Linden Wood Joining us from 4:30–7:30 PM is Linden Wood , a Sacramento-based singer, songwriter, and guitarist whose music blends Americana, alternative country, roots rock, and acoustic storytelling. Performing since his early teenage years, Linden has spent more than a decade building a following throughout Northern California. His musical background stretches from intimate solo acoustic performances to heavier rock and metal, including appearances at the Warped Tour and performances alongside touring acts such as Trivium, Soulfly, Prong, and Floater. As a solo artist, Linden brings a roots-inspired sound, expressive vocals, and a natural connection with his audience. His ability to move between musical styles gives his performances a distinctive character, combining the energy of rock with the warmth and storytelling of Americana. We're excited to welcome Linden into the cellar for an evening where his music can be enjoyed in a more personal setting. Mulled Wine & Seasonal Sips We'll be serving warm, aromatic mulled wine , alongside our collection of small-lot Christopher Cellars wines available by the glass, bottle, or tasting flight. Nashville Blazin’ Chicken will also be on-site serving dinner throughout the evening. This will be an entirely indoor event, with limited seating available on a first-come, first-served basis. Arrive early to find a spot and enjoy live music in the cellar.",
       "url": "https://www.christophercellars.com/upcoming-events/friday-night-with-linden-wood-1"
     },
     {
@@ -100,6 +100,20 @@
       "url": "https://www.christophercellars.com/upcoming-events/wine-club-party-2"
     },
     {
+      "id": "fdcc9b34dfb0290fe7",
+      "title": "A Taste of Thanksgiving | Wine Pairing Experience",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "start": "13:00",
+      "end": "14:30",
+      "location": "Elk Grove, CA",
+      "description": "Christopher Cellars + Boulevard Bistro $40 Per Person | Three Culinary Bites & Three Wine Pairings Reserve Here Join us for a special afternoon celebrating the flavors of Thanksgiving through a thoughtfully curated wine and culinary tasting experience at Christopher Cellars. We've partnered with Chef Brett Bohlmann of Boulevard Bistro to reimagine three familiar Thanksgiving favorites into beautifully presented culinary bites, each thoughtfully paired with a Christopher Cellars wine. Presented one course at a time, each pairing invites guests to explore how seasonal ingredients, creative culinary techniques, and carefully selected wines complement one another. Chef Brett will personally plate and introduce each creation, sharing the inspiration and techniques behind the dish. Christopher Mora, owner and winemaker of Christopher Cellars, will guide guests through the accompanying wines, highlighting the vineyards, grape varieties, and characteristics that make each pairing unique. The Thanksgiving Tasting Menu First Bite | Roasted Butternut Squash & Sage Soup A silky purée of roasted butternut squash infused with fresh sage, finished with brown butter, crème fraîche, and toasted pumpkin seeds. Paired with 2024 Clairette Blanche | Fernow Ranch Second Bite | Crispy Thanksgiving Stuffing Crostini Golden, crisped Thanksgiving stuffing topped with whipped Brie, cranberry-shallot compote, and fresh thyme. Paired with 2024 Zweigelt | Mokelumne Glen Vineyard Third Bite | Roasted Turkey & Wild Mushroom Vol-au-Vent A delicate puff pastry filled with roasted turkey, wild mushrooms, and shallots, finished with sage-infused turkey gravy and crispy sage. Paired with 2023 Field Blend | Bartholomew Family Vineyard An Afternoon with the Chef & Winemaker Throughout the tasting, Chef Brett and Christopher will share the stories behind each pairing, exploring how acidity, texture, tannins, and seasonal ingredients come together to elevate familiar Thanksgiving flavors. Event Details Sunday, November 15, 2026 | 1:00 PM Christopher Cellars | Elk Grove, CA Tickets: $40 per person Your ticket includes three individually plated culinary bites, three paired wine pours, and guided presentations from Chef Brett Bohlmann and winemaker Christopher Mora. Seating is limited. Advance reservations are required. Reserve Here",
+      "url": "https://www.christophercellars.com/upcoming-events/a-taste-of-thanksgiving-wine-pairing-experience"
+    },
+    {
       "id": "275c5e73d36efba10b",
       "title": "Taco Tuesday",
       "venue": "Christopher Cellars",
@@ -112,6 +126,20 @@
       "location": "Elk Grove, CA",
       "description": "Join us this Tuesday as we bring the energy back to the start of the week. Maiz Mexican Catering will be on-site serving a lineup of bold, authentic flavors. Expect fresh tacos, vibrant salsas, and dishes built to pair perfectly with a glass of wine in hand. It’s casual, flavorful, and exactly how a Tuesday should feel. We’re pouring Sangria on tap! Bring your 1-liter flip top bottle and take home our custom house sangria, crafted to be refreshing, fruit-driven, and perfect for the season or enjoy it by the glass. No reservations needed. Come out, grab some tacos, and settle in with a glass. Tuesdays just found their rhythm.",
       "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday-2"
+    },
+    {
+      "id": "508aaa7e18d3087091",
+      "title": "R&B Night",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-18",
+      "endDate": "2026-11-18",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "Every Wednesday | 4–8 PM DJ Torrey Tee | 5:30–7:30 PM Make Wednesday nights a little more interesting at Christopher Cellars with R&B Night featuring our resident DJ, Torrey Tee. Join us inside the cellar for an evening of R&B, Hip-Hop, Bay Area classics, and throwbacks, paired with small-lot Christopher Cellars wines and great local food. Our tasting room is open from 4–8 PM , with wines available by the glass, bottle, or tasting flight, along with our signature wine slushies and other seasonal selection. Meet DJ Torrey Tee Torrey Tee is a Sacramento-based DJ, creative, and cultural curator known for his ability to read a room and create an atmosphere that brings people together. Blending R&B, Hip-Hop, Bay Area favorites, and familiar throwbacks, Torrey moves effortlessly between laid-back grooves and upbeat selections that keep the energy going throughout the evening. His experience spans Sacramento nightlife, festivals, weddings, corporate events, and community gatherings, including collaborations with Macy's, the City of Sacramento, St. HOPE, Coin-Op, and the R&B Running Series. Beyond music, Torrey is a photographer, filmmaker, and founder of Full Effect Films and Full Effect Entertainment. His creative background brings a thoughtful approach to every performance, making each Wednesday night feel a little different.",
+      "url": "https://www.christophercellars.com/upcoming-events/rb-night-1-j2t4l"
     },
     {
       "id": "83372e035e7751f591",
@@ -156,6 +184,20 @@
       "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday-3"
     },
     {
+      "id": "b0720a89d26754c1f2",
+      "title": "R&B Night",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-25",
+      "endDate": "2026-11-25",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "Every Wednesday | 4–8 PM DJ Torrey Tee | 5:30–7:30 PM Make Wednesday nights a little more interesting at Christopher Cellars with R&B Night featuring our resident DJ, Torrey Tee. Join us inside the cellar for an evening of R&B, Hip-Hop, Bay Area classics, and throwbacks, paired with small-lot Christopher Cellars wines and great local food. Our tasting room is open from 4–8 PM , with wines available by the glass, bottle, or tasting flight, along with our signature wine slushies and other seasonal selection. Meet DJ Torrey Tee Torrey Tee is a Sacramento-based DJ, creative, and cultural curator known for his ability to read a room and create an atmosphere that brings people together. Blending R&B, Hip-Hop, Bay Area favorites, and familiar throwbacks, Torrey moves effortlessly between laid-back grooves and upbeat selections that keep the energy going throughout the evening. His experience spans Sacramento nightlife, festivals, weddings, corporate events, and community gatherings, including collaborations with Macy's, the City of Sacramento, St. HOPE, Coin-Op, and the R&B Running Series. Beyond music, Torrey is a photographer, filmmaker, and founder of Full Effect Films and Full Effect Entertainment. His creative background brings a thoughtful approach to every performance, making each Wednesday night feel a little different.",
+      "url": "https://www.christophercellars.com/upcoming-events/rb-night-1-j2t4l-rrcgw"
+    },
+    {
       "id": "a8664a143d07aa3d55",
       "title": "Friday Night with BlueSoul Acoustics",
       "venue": "Christopher Cellars",
@@ -168,6 +210,20 @@
       "location": "Elk Grove, CA",
       "description": "We're taking Friday Night Live Music inside the cellar with the music a little closer, mulled wine warming on the bar, and the historic barn as our backdrop, we're looking forward to a different kind of Friday at Christopher Cellars. BlueSoul Acoustic joins us from 4:30–7:30 PM, bringing a blend of folk, Americana, indie, and acoustic favorites. Led by Montreal-born musician Terry MacNeill, whose performing career spans more than three decades, BlueSoul draws from artists including Neil Young, Dave Matthews Band, Coldplay, and Oasis. Expect familiar songs, expressive vocals, and the kind of acoustic performance that feels right at home in a smaller setting. Local food truck onsite . At the bar, we'll be pouring our seasonal mulled wine , along with our small-lot wines available by the glass, bottle, or tasting flight. This will be an entirely indoor event, with limited seating available on a first-come, first-served basis. Arrive early, find a spot, and enjoy a Friday evening tucked away in the cellar.",
       "url": "https://www.christophercellars.com/upcoming-events/friday-night-with-bluesoul-acoustics-1"
+    },
+    {
+      "id": "564f315ffc60e2b1a2",
+      "title": "Who Killed Santa?",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-12-10",
+      "endDate": "2026-12-10",
+      "start": "18:00",
+      "end": "21:00",
+      "location": "Elk Grove, CA",
+      "description": "A Holiday Murder Mystery at Christopher Cellars Santa's been murdered, and Christmas is officially a crime scene. The holiday season has taken a deadly turn, and everyone is a suspect. Was it a jealous elf? A disgruntled reindeer? Or someone with a little too much holiday spirit? Join us at Christopher Cellars for an evening of mystery, mischief, and holiday cheer as we uncover who put Santa on the naughty list permanently. Get into character, follow the clues, question your fellow guests, and work to solve the mystery before the killer gets away. Everyone has a role to play, and nothing is quite as innocent as it seems. Throughout the evening, enjoy spiked hot cocoa, warm mulled wine, and your favorite Christopher Cellars wines by the glass, along with a selection of appetizers and small bites. Get Your Tickets Your Ticket Includes $50 per person An interactive, character-driven murder mystery experience Your character assignment, clues, and mystery materials A selection of appetizers and small bites Your first beverage of choice Additional beverages will be available for purchase throughout the evening. Dress the Part Attire: Winter Cocktail | Holiday Best Think festive cocktail dresses, velvet, rich winter colors, sharp suits, and a little holiday sparkle. Dress to impress, but remember, even the most elegantly dressed guest could be hiding a deadly secret. Can You Solve the Crime? Gather your friends, embrace your character, and prepare for a holiday celebration with a murderous twist. Tickets are $50 per person. Space is limited, and advance reservations are required. Santa won't be making it down the chimney this year. The question is, who made sure of it? Get Tickets",
+      "url": "https://www.christophercellars.com/upcoming-events/who-killed-santa"
     },
     {
       "id": "ef28f4b592a9b76a5d",
@@ -196,6 +252,20 @@
       "location": "Elk Grove, CA",
       "description": "Sunday, December 13, 2026 | 1–3 PM Free to Participate | Advance Registration Required for Cookie Exchange Participants Some of the best holiday traditions begin in the kitchen. A grandmother's handwritten recipe, cookies baked with the kids every December, or a family favorite that always finds its way onto the holiday table. This December, we're bringing those traditions together at Christopher Cellars for Every Cookie Has a Story , a community holiday cookie and recipe exchange celebrating the recipes, memories, and people that make the season special. We invite you to bake a batch of your favorite holiday cookies, share the story behind them, and discover new recipes and traditions from others in our community. Register Here How the Cookie Exchange Works Bake 24 Cookies. Bring 24 Cookies. Take Home 24 Cookies. Register in advance to participate, then bake two dozen of your favorite homemade holiday cookies to bring to Christopher Cellars on Sunday, December 13. When you arrive, we'll collect and arrange everyone's cookies for the exchange. You'll have the opportunity to mingle with fellow bakers, discover different holiday treats, and fill a take-home box with 24 assorted cookies made by other participants. You'll leave with a delicious assortment of holiday cookies and perhaps a few new family favorites. Share the Recipe, Share the Tradition Every cookie has a story, and we'd love to hear yours. Along with your cookies, we encourage you to bring a recipe card featuring the ingredients, baking instructions, and a little note about what makes your recipe special. Is it something your grandmother made every Christmas? A recipe your children request every year? Or a new tradition you've started with your own family? We'll display the recipes as part of our Community Holiday Recipe Exchange , giving guests an opportunity to discover new recipes and take inspiration home for their own holiday baking. Who knows? Your family's favorite cookie might become someone else's new holiday tradition. Wine, Cookies & Community While the cookies are being exchanged, enjoy an afternoon at Christopher Cellars with our collection of small-lot wines available by the glass, bottle, or tasting flight. We'll also share a few suggested wine and cookie pairings for those interested in discovering how holiday sweets complement different wines. Bring your family, invite a friend, and spend the afternoon celebrating the simple joy of sharing something homemade.",
       "url": "https://www.christophercellars.com/upcoming-events/holiday-cookie-recipe-exchange"
+    },
+    {
+      "id": "af8b30bd84e254d17d",
+      "title": "Winemaker's Dinner at Americana House",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-12-16",
+      "endDate": "2026-12-16",
+      "start": "17:30",
+      "end": "20:30",
+      "location": "Elk Grove, CA",
+      "description": "Americana House | Appellation Lodi – Wine & Roses Resort & Spa 5 Course Dinner + Wine Pairing Experience | $130.00 per person + taxes & fees Make Reservation Join us for an intimate five-course winemaker dinner at Americana House, Lodi's newly reimagined dining destination by acclaimed Chef Charlie Palmer, located at the former Towne House Restaurant at Wine & Roses. This special evening brings together the seasonal, locally inspired cuisine of Americana House and the small-lot wines of Christopher Cellars. Each course has been thoughtfully created to complement the wines, highlighting the flavors, craftsmanship, and agricultural roots of the Lodi region. Christopher Mora, owner and winemaker of Christopher Cellars, will guide guests through the featured wines, sharing the vineyards, winemaking decisions, and stories behind each selection. The Five-Course Menu First Course | Roasted Golden Beets Chèvre mousse, satsuma mandarin, pistachio, mâche Paired with 2024 Christopher Cellars Picpoul Blanc Second Course | Lobster Pot Pie Lobster, leeks, fennel, puff pastry Paired with 2024 Christopher Cellars Chardonnay Third Course | Crispy Pork Belly White bean purée, braised escarole, apple-thyme jus Paired with 2023 Christopher Cellars Bartholomew Family Vineyards Field Blend Fourth Course | Grilled Striploin Potato pavé, king trumpet mushrooms, black pepper-Zinfandel jus Paired with 2023 Christopher Cellars Cherryhouse Zinfandel Fifth Course | Blood Orange Upside-Down Cake Candied orange peel, citrus-infused crème anglaise, vanilla Chantilly Paired with 2022 Christopher Cellars Barbera Brut Rosé Make Reservation",
+      "url": "https://www.christophercellars.com/upcoming-events/winemakers-dinner-at-americana-house"
     },
     {
       "id": "b37b7f3ce50572c04c",
