@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T14:48:58.793889+00:00",
+  "updatedAt": "2026-11-06T14:44:16.071201+00:00",
   "events": [
     {
       "id": "f5bc34dc3fef6b966f",
@@ -42,6 +42,20 @@
       "location": "Amador County, CA",
       "description": "Tour of vineyard post harvest with the Villegas Family. &nbsp;Talk about different varietals. &nbsp;Time for questions. &nbsp;Class on wreath making . &nbsp;Space limited email Terry at vfvwine@gmail.com",
       "url": "https://amadorwine.com/event/spend-time-in-the-vineyard/"
+    },
+    {
+      "id": "17523831322fe98d89",
+      "title": "Vino Noceto | Holiday Sip &#038; Paint",
+      "venue": "Vino Noceto",
+      "region": "amador",
+      "category": "other",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "start": "11:30",
+      "end": "13:00",
+      "location": "Plymouth, CA",
+      "description": "Get into the holiday spirit with Heart &amp; Soul Studio! Join us at Vino Noceto for a festive crafting session where you’ll create an adorable rustic Mason Jar Snowman! It’s the perfect excuse to get a little crafty, embrace the holiday season, and add some handmade charm to your décor!",
+      "url": "https://amadorwine.com/event/vino-noceto-holiday-sip-paint/"
     },
     {
       "id": "18b2b3369090c0c5b0",

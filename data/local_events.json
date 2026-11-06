@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-05T06:49:00.689392-08:00",
+  "updatedAt": "2026-11-06T06:44:18.013602-08:00",
   "events": [
-    {
-      "id": "d0718311acf398d6ad",
-      "title": "Closed for A Private Event",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-05",
-      "endDate": "2026-11-05",
-      "start": "16:00",
-      "end": "20:00",
-      "location": "Elk Grove, CA",
-      "description": "Christopher Cellars will be closed to the public on Thursday, November 5 , for a private event. We will resume our regular tasting room hours the remainder of the week and look forward to welcoming you back for a weekend of great wine and good company. Friday, November 6: 4–8 PM Saturday, November 7: 12–5 PM Sunday, November 8: 12–5 PM Thank you for your understanding, and we look forward to seeing you at the cellar!",
-      "url": "https://www.christophercellars.com/upcoming-events/closed-for-a-private-event-1"
-    },
     {
       "id": "425b3048d9ab27e08d",
       "title": "Friday Night with BlueSoul Acoustics",
@@ -70,6 +56,20 @@
       "location": "Elk Grove, CA",
       "description": "Every Wednesday | 4–8 PM DJ Torrey Tee | 5:30–7:30 PM Make Wednesday nights a little more interesting at Christopher Cellars with R&B Night featuring our resident DJ, Torrey Tee. Join us inside the cellar for an evening of R&B, Hip-Hop, Bay Area classics, and throwbacks, paired with small-lot Christopher Cellars wines and great local food. Our tasting room is open from 4–8 PM , with wines available by the glass, bottle, or tasting flight, along with our signature wine slushies and other seasonal selections. This Week's Food Truck Taeza’s Bottomline BBQ Taeza's BottomLine BBQ brings authentic, slow-smoked barbecue to Sacramento, serving up tender brisket, smoky ribs, pulled pork, and homemade comfort-food favorites like mac and cheese and BBQ beans. Known for their house-made rubs and sauces, they're bringing hearty barbecue to Christopher Cellars for an evening of great wine, food, and R&B. Meet DJ Torrey Tee Torrey Tee is a Sacramento-based DJ, creative, and cultural curator known for his ability to read a room and create an atmosphere that brings people together. Blending R&B, Hip-Hop, Bay Area favorites, and familiar throwbacks, Torrey moves effortlessly between laid-back grooves and upbeat selections that keep the energy going throughout the evening. His experience spans Sacramento nightlife, festivals, weddings, corporate events, and community gatherings, including collaborations with Macy's, the City of Sacramento, St. HOPE, Coin-Op, and the R&B Running Series. Beyond music, Torrey is a photographer, filmmaker, and founder of Full Effect Films and Full Effect Entertainment. His creative background brings a thoughtful approach to every performance, making each Wednesday night feel a little different.",
       "url": "https://www.christophercellars.com/upcoming-events/rb-night-1"
+    },
+    {
+      "id": "bd41e89bf905b278fd",
+      "title": "Wednesday winey Walkers",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-11",
+      "endDate": "2026-11-11",
+      "start": "17:30",
+      "end": "18:30",
+      "location": "Elk Grove, CA",
+      "description": "Walk. Wine. Unwind. Repeat! Grab your walking shoes, bring a friend, and join us for the launch of Wednesday Winey Walkers at Christopher Cellars! Come enjoy a brisk 20–30 minute evening walk, some fresh air, great conversation, and a little exercise before heading back to the winery for music, food, wine, and fun! 📍 Where to Meet: Southeast corner of the Christopher Cellars parking lot. 👟 Our Route: We'll head south on Bradshaw to Ridgerock, continue to Mainline, turn onto Elk Grove Boulevard, and finish back at the winery. 🍷 The Best Part? The walk is just the beginning! Stick around to relax, reconnect with friends, meet some new ones, and enjoy everything Christopher Cellars has to offer. All are welcome! Whether you're coming for the walk, the wine, or the wonderful company, there's a place for you! Questions? Contact Laurie Fox at foxld@hotmail.com . Good Walks. Great Wine. Even Better Friends! See you Wednesday!",
+      "url": "https://www.christophercellars.com/upcoming-events/wednesday-wine-walk"
     },
     {
       "id": "e84b7690fa6c111f14",

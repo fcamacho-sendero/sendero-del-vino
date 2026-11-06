@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-05T06:49:07.789370-08:00",
+  "updatedAt": "2026-11-06T06:44:24.748963-08:00",
   "events": [
-    {
-      "id": "104ecde66c7dec2a5c",
-      "title": "Thursday Night Music and Food / Love and Honey",
-      "venue": "Oak Farm Vineyards",
-      "region": "lodi",
-      "category": "music",
-      "date": "2026-11-05",
-      "endDate": "2026-11-05",
-      "start": "",
-      "end": "",
-      "location": "Lodi, CA",
-      "description": "Music by Love and Honey  Thursday, November 5 | 5:00 to 8:00 PM | No cover  Seating is first come, first served.  Thursday nights feature a special entrée and all the options from our shareables menu.",
-      "url": "https://www.oakfarmvineyards.com/events-calendar/thursday-night-music-and-food-love-and-honey/"
-    },
     {
       "id": "1e8151c903012f20da",
       "title": "Veterans Day: Sponsor a Veteran Flag",
@@ -168,6 +154,20 @@
       "location": "Lodi, CA",
       "description": "Celebrate the Season at Oak Farm Vineyards  Bundle up and join us for our annual Christmas Stroll! This year, we’ve created two distinct experiences so you can celebrate the holidays your way. Whether you are looking for a festive family evening or a cozy night out with friends, we have a stroll for you.     Christmas Stroll (Family Nights)      December 11th & 12th | Arrive anytime from 5:00 PM to 8:00 PM  Dec 11: Buy Tickets General Admission (No Ice Skating) $25  Admission + Ice Skating $35: 5:30 PM 6:00 PM 6:30 PM 7:00 PM 7:30 PM 8:00 PM 8:30 PM   Dec 12: Buy Tickets General Admission (No Ice Skating) $25  Admission + Ice Skating $35: 5:30 PM 6:00 PM 6:30 PM 7:00 PM 7:30 PM 8:00 PM 8:30 PM     Bring the whole family for a magical night packed with holiday cheer! Kids can enjoy festive cookie and ornament decorating, a cozy wagon ride under the sparkling Christmas lights, and special photos with Santa and Mrs. Claus. Adults will receive a complimentary welcome pour of wine, with hot chocolate, spiked cider, Oak Farm wines, and local food truck eats available for purchase.  Family Nights are our one all-ages exception. All other nights are 21 and over.      *We will not have vend",
       "url": "https://www.oakfarmvineyards.com/events-calendar/christmas-holiday-stroll-family-night-2/"
+    },
+    {
+      "id": "6390a810ce7c6f6b86",
+      "title": "Christmas Holiday Stroll (Adult Nights)",
+      "venue": "Oak Farm Vineyards",
+      "region": "lodi",
+      "category": "festival",
+      "date": "2026-12-17",
+      "endDate": "2026-12-17",
+      "start": "",
+      "end": "",
+      "location": "Lodi, CA",
+      "description": "Celebrate the Season at Oak Farm Vineyards  Bundle up and join us for our annual Christmas Stroll! This year, we’ve created two distinct experiences so you can celebrate the holidays your way. Whether you are looking for a festive family evening or a cozy night out with friends, we have a stroll for you.     Christmas Stroll (Adult Nights)    December 4th, 5th, 17th, & 18th 6:00 PM – 9:00 PM (VIP hour starts at 5:00 PM)  General Admission $25 | VIP $35 (VIP hour starts at 5:00 PM)  Dec 4: Buy Tickets General Admission VIP Sold Out  Dec 5: Buy Tickets General Admission Buy Tickets VIP  Dec 17: Buy Tickets General Admission Buy Tickets VIP  Dec 18: Buy Tickets General Admission Buy Tickets VIP    Unwind at the vineyard for a relaxing, adults-focused holiday evening. Stroll through our breathtaking Christmas light displays and enjoy a cozy wagon ride around the estate with a complimentary welcome pour of Oak Farm wine. Spiked cider, wine by the glass or bottle, and delicious bites from local food trucks will also be available for purchase. VIP ticket gets you 1 hour early access entry. VIP tickets are on sale now.      Tickets are now available to the public.  21 and over only. No min",
+      "url": "https://www.oakfarmvineyards.com/events-calendar/christmas-holiday-stroll-adult-nights-dec17/"
     }
   ],
   "sources": [
