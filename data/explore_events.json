@@ -1,48 +1,6 @@
 {
-  "updatedAt": "2026-11-07T06:31:54.060744-08:00",
+  "updatedAt": "2026-11-08T06:29:49.047280-08:00",
   "events": [
-    {
-      "id": "4c2994ec92c1032bba",
-      "title": "Chili Cook-Off at McConnell Estates Winery",
-      "venue": "McConnell Estates",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-07",
-      "endDate": "2026-11-07",
-      "start": "13:00",
-      "end": "16:00",
-      "location": "Elk Grove, CA",
-      "description": "Get ready for the showdown of the year! Our tenth annual Chili Cook-Off is going down on Saturday, November 7th!Join us from 1:00pm to 4:00pm in our barn area",
-      "url": "https://www.exploreelkgrove.com/events/chili-cook-off-at-mcconnell-estates-winery-2/"
-    },
-    {
-      "id": "d50cd6531936cdebe2",
-      "title": "Kiwanis Whiskey & Wine Tasting Fundraiser",
-      "venue": "Participating Elk Grove Wineries",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-07",
-      "endDate": "2026-11-07",
-      "start": "18:00",
-      "end": "21:00",
-      "location": "Elk Grove, CA",
-      "description": "Join the Kiwanis Club of Laguna-Elk Grove for an elegant evening of fine wines, premium whiskeys, delicious appetizers, live music, and great company, all",
-      "url": "https://www.exploreelkgrove.com/events/whiskey-wine-tasting-fundraiser/"
-    },
-    {
-      "id": "66a961007a59db0f7e",
-      "title": "Sip & Script Calligraphy Workshop at Ever After Wine",
-      "venue": "Ever After Wine",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-07",
-      "endDate": "2026-11-07",
-      "start": "14:30",
-      "end": "16:00",
-      "location": "Elk Grove, CA",
-      "description": "Sip wine and learn how to write in script!",
-      "url": "https://www.exploreelkgrove.com/events/sip-script-calligraphy-workshop-at-ever-after-wine/"
-    },
     {
       "id": "2c67417707afc04afc",
       "title": "I Heart R&B Nights at Ever After Wine",
@@ -84,6 +42,20 @@
       "location": "Elk Grove, CA",
       "description": "Sip and shop with us at our Holiday Sip & Stroll on Saturday, November 14th! From 5 pm to 8 pm, spend your Saturday night holiday shopping from local",
       "url": "https://www.exploreelkgrove.com/events/holiday-sip-stroll-at-mcconnell-estates/"
+    },
+    {
+      "id": "3a1806160191a3548f",
+      "title": "November Book Club at Ever After Wine",
+      "venue": "Ever After Wine",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-18",
+      "endDate": "2026-11-18",
+      "start": "18:30",
+      "end": "20:30",
+      "location": "Elk Grove, CA",
+      "description": "Skin & Bones by Renee Watson Enjoy an optional tasting of four wines paired with the themes and characters of the book.",
+      "url": "https://www.exploreelkgrove.com/events/november-book-club-at-ever-after-wine/"
     }
   ],
   "sources": [
