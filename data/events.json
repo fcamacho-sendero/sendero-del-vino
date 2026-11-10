@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-08T14:29:40.866137+00:00",
+  "updatedAt": "2026-11-10T14:42:07.593835+00:00",
   "events": [
     {
-      "id": "f5bc34dc3fef6b966f",
-      "title": "Art &#038; Wine Stroll &#8211; La Mesa Sutter Creek",
-      "venue": "La Mesa Sutter Creek",
+      "id": "676dcb2c3d00424cdf",
+      "title": "Friday Pizza Festa at Domenico!",
+      "venue": "Domenico Winery &#038; Vineyard",
       "region": "amador",
-      "category": "other",
-      "date": "2026-11-08",
-      "endDate": "2026-11-08",
-      "start": "11:00",
-      "end": "18:00",
-      "location": "Sutter Creek, CA",
-      "description": "Sunday, November 8, 2026 11:00 &#8211; 5:00 p.m. La Mesa Sutter Creek Spend a delightful Sunday sipping, strolling, and discovering at the Art and Wine Stroll in Sutter Creek. Wine tasting rooms around town will feature local artists. La Mesa is proud to feature guest pencil and pastel artist Patti Fulton . Meet and chat with th",
-      "url": "https://amadorwine.com/event/art-wine-stroll-la-mesa-sutter-creek/"
+      "category": "music",
+      "date": "2026-11-13",
+      "endDate": "2026-11-13",
+      "start": "15:00",
+      "end": "20:00",
+      "location": "Ione, CA",
+      "description": "Our Friday Pizza Festa is back featuring live music, award-winning wines and artisan pizzas baked by our owner Dominick Chirichillo.&nbsp; No reservation needed but come early for the best seats.",
+      "url": "https://amadorwine.com/event/friday-pizza-festa-at-domenico-9/"
     },
     {
       "id": "81c0acdb6b9c069853",
@@ -86,6 +86,20 @@
       "url": "https://amadorwine.com/event/live-music-friday-at-rombauer-vineyards-9/"
     },
     {
+      "id": "acade65feb917eb13b",
+      "title": "Black Friday at Iron Hub",
+      "venue": "Amador Wine Country",
+      "region": "amador",
+      "category": "other",
+      "date": "2026-11-27",
+      "endDate": "2026-11-27",
+      "start": "11:00",
+      "end": "17:00",
+      "location": "Amador County, CA",
+      "description": "Make Iron Hub part of your Black Friday plans! Stop by for special offers, enjoy small bites, and find a bottle or two for your holiday table or gift list. We look forward to seeing you at the winery!",
+      "url": "https://amadorwine.com/event/black-friday-at-iron-hub/"
+    },
+    {
       "id": "204a1b3356099509d7",
       "title": "Holiday Wreath Making at Fraser Family Vineyards",
       "venue": "Fraser Family Vineyards",
@@ -112,6 +126,34 @@
       "location": "Amador County, CA",
       "description": "Celebrate the Season of Giving with the Wineries of Start On Steiner &#8211; Amador County&#8217;s First Wine Trail&nbsp;&#8211;&nbsp;as we celebrate the holidays and the season of giving with an event benefiting the Interfaith Foodbank of Amador County from Saturday, December 5th to Sunday, December 6th.&nbsp;Tickets are just $",
       "url": "https://amadorwine.com/event/start-on-steiner-holiday-open-house/"
+    },
+    {
+      "id": "bed6a3fad4fc7239df",
+      "title": "Scott Harvey Blend Experience",
+      "venue": "Scott Harvey Wines",
+      "region": "amador",
+      "category": "other",
+      "date": "2026-12-13",
+      "endDate": "2026-12-13",
+      "start": "11:00",
+      "end": "13:00",
+      "location": "Plymouth, CA",
+      "description": "Join us at our&nbsp; Shenandoah Plymouth Tasting Room &nbsp;for&nbsp; The Scott Harvey Blend Experience &nbsp;— a one-of-a-kind, hands-on winemaking adventure where you become the winemaker! Discover the art of blending as you experiment with different wines, taste and fine-tune your own unique creation, and design a personalize",
+      "url": "https://amadorwine.com/event/scott-harvey-blend-experience-5/"
+    },
+    {
+      "id": "a4322a1f1d0270149b",
+      "title": "Scott Harvey Holiday Mart",
+      "venue": "Scott Harvey Wines",
+      "region": "amador",
+      "category": "music",
+      "date": "2026-12-13",
+      "endDate": "2026-12-13",
+      "start": "12:00",
+      "end": "16:00",
+      "location": "Plymouth, CA",
+      "description": "Join us at&nbsp; Scott Harvey Wines &nbsp;for a festive afternoon of holiday shopping, delicious wine, live jazz, and gourmet food! Get into the holiday spirit while browsing a wonderful selection of local vendors offering clothing, jewelry, gifts, holiday cookies, sourdough bread, handmade dog treats, and more! Enjoy&nbsp; live",
+      "url": "https://amadorwine.com/event/scott-harvey-holiday-mart/"
     },
     {
       "id": "8f9a22b87dc64aa4e9",
