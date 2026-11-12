@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:44:25.640383-08:00",
+  "updatedAt": "2026-11-12T06:46:11.444628-08:00",
   "events": [
     {
       "id": "2c67417707afc04afc",
@@ -56,6 +56,20 @@
       "location": "Elk Grove, CA",
       "description": "Skin & Bones by Renee Watson Enjoy an optional tasting of four wines paired with the themes and characters of the book.",
       "url": "https://www.exploreelkgrove.com/events/november-book-club-at-ever-after-wine/"
+    },
+    {
+      "id": "88c6f14090b4f3ebc5",
+      "title": "Swiss Wine & Raclette Pairing at Ever After Wine",
+      "venue": "Ever After Wine",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-20",
+      "endDate": "2026-11-20",
+      "start": "18:00",
+      "end": "21:00",
+      "location": "Elk Grove, CA",
+      "description": "Experience the paring of Swiss wines and Raclette with Ever After X DDI Wines",
+      "url": "https://www.exploreelkgrove.com/events/swiss-wine-raclette-pairing-at-ever-after-wine/"
     }
   ],
   "sources": [
