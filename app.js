@@ -4,10 +4,29 @@ const categoryNames={music:'Live Music',food:'Food & Dining',festival:'Festival'
 let events=[];
 let communityEvents;
 const cityCalendars = {
-  'Elk Grove': 'https://elkgrove.gov/all-events',
-  'Folsom': 'https://www.folsom.ca.us/government/parks-recreation/recreation/special-events',
-  'Lincoln': 'https://www.lincolnca.gov/parks-recreation-and-activities/special-events/community-events/',
-  'Lodi': 'https://www.lodi.gov/1061/Special-Events'
+  "Antioch": "https://www.antiochca.gov/1027/Local-Community-Events",
+  "Auburn": "https://auburn.ca.gov/calendar.aspx?CID=25",
+  "Brentwood": "https://www.brentwoodca.gov/government/parks-recreation/special-events-and-programs/special-events-calendar",
+  "Citrus Heights": "https://www.citrusheights.net/events",
+  "Davis": "https://www.cityofdavis.org/city-hall/city-manager-s-office/community-events",
+  "Elk Grove": "https://elkgrove.gov/all-events",
+  "Fairfield": "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/special-events/",
+  "Folsom": "https://www.folsom.ca.us/government/parks-recreation/recreation/special-events",
+  "Galt": "https://www.cityofgalt.org/our-city/special-events",
+  "Isleton": "https://www.cityofisleton.com/community-events",
+  "Lincoln": "https://www.lincolnca.gov/parks-recreation-and-activities/special-events/community-events/",
+  "Lodi": "https://www.lodi.gov/1061/Special-Events",
+  "Oakley": "https://www.oakleyca.gov/369/Special-Events",
+  "Placerville": "https://www.cityofplacerville.org/events",
+  "Rancho Cordova": "https://www.cityofranchocordova.org/experience/rancho-cordova-events/-toggle-next30days",
+  "Rocklin": "https://www.rocklin.ca.us/annual-events",
+  "Roseville": "https://www.roseville.ca.gov/programs_events/index.php",
+  "Sacramento": "https://www.cityofsacramento.gov/edd/community-engagement/community-calendar",
+  "Suisun City": "https://www.suisun.com/Events-directory",
+  "Vacaville": "https://www.cityofvacaville.gov/government/parks-and-recreation/special-events",
+  "West Sacramento": "https://www.cityofwestsacramento.org/government/departments/parks-recreation/westsacrhythmontheriver",
+  "Winters": "https://www.cityofwinters.org/167/Community-Events",
+  "Woodland": "https://www.cityofwoodland.gov/DocumentCenter/View/15103/2026-List-of-Special-Events-May-Update"
 };
 const wineryRegions = $('region')?.innerHTML;
 
@@ -17,7 +36,7 @@ function setCalendar(community) {
   $('region-label').textContent = community ? 'City' : 'Region';
   $('region').innerHTML = community
     ? '<option value="all">All cities</option>' + Object.keys(cityCalendars).map(city =>
-        `<option value="${city.toLowerCase().replace(' ', '-')}">${city}</option>`).join('')
+        `<option value="${city.toLowerCase().replaceAll(' ', '-')}">${city}</option>`).join('')
     : wineryRegions;
   $('winery-sources').hidden = community;
   $('community-sources').hidden = !community;
@@ -37,8 +56,8 @@ function setCalendar(community) {
 }
 $('winery-mode')?.addEventListener('click', () => setCalendar(false));
 $('community-mode')?.addEventListener('click', () => setCalendar(true));
-if ($('community-sources')) $('community-sources').innerHTML = 'Official city calendars: ' + Object.entries(cityCalendars).map(([city, url]) =>
-  `<a href="${url}" target="_blank" rel="noopener">${city} ↗</a>`).join(' · ');
+if ($('community-sources')) $('community-sources').innerHTML = '<details><summary>Official city calendars</summary>' + Object.entries(cityCalendars).map(([city, url]) =>
+  `<a href="${url}" target="_blank" rel="noopener">${city} ↗</a>`).join(' · ') + '</details>';
 
 function escapeHTML(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function dateAt(iso){return new Date(iso+'T12:00:00');}
