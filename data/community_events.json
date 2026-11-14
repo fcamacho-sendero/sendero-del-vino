@@ -223,6 +223,62 @@
       "url": "https://tickets.eventhub.net/e/wild-nights-and-holiday-lights-2026",
       "category": "festival",
       "location": "Folsom, CA"
+    },
+    {
+      "id": "community-brentwood-2026-11-28",
+      "city": "brentwood",
+      "title": "Holiday Parade",
+      "venue": "Downtown Brentwood",
+      "date": "2026-11-28",
+      "start": "17:00",
+      "end": "19:00",
+      "host": "Hosted by Brentwood Chamber of Commerce",
+      "description": "A downtown holiday parade with a Brentwood Express theme.",
+      "url": "https://business.brentwoodchamber.com/events/details/44th-annual-holiday-parade-23514",
+      "category": "festival",
+      "location": "Brentwood, CA"
+    },
+    {
+      "id": "community-rancho-cordova-2026-11-29",
+      "city": "rancho-cordova",
+      "title": "Christmas Tree Lighting & Holiday Festival",
+      "venue": "Village Green Park",
+      "date": "2026-11-29",
+      "start": "16:00",
+      "end": "19:30",
+      "host": "Hosted by Cordova Community Council",
+      "description": "Free festival with food trucks, Santa, and fireworks at 7 p.m.",
+      "url": "https://www.visitranchocordova.com/events/annual-events-holidays/cordova-christmas-tree-lighting/",
+      "category": "festival",
+      "location": "Rancho Cordova, CA"
+    },
+    {
+      "id": "community-galt-2026-12-05",
+      "city": "galt",
+      "title": "Lighting of the Night Holiday Market & Parade",
+      "venue": "Historic Fourth Street",
+      "date": "2026-12-05",
+      "start": "16:00",
+      "end": "20:00",
+      "host": "City-hosted",
+      "description": "The holiday market opens at 4 p.m. and the parade starts at 6:30 p.m. at the market grounds.",
+      "url": "https://www.cityofgalt.org/our-city/community-events/lighting-of-the-night/",
+      "category": "festival",
+      "location": "Galt, CA"
+    },
+    {
+      "id": "community-rocklin-2026-12-05",
+      "city": "rocklin",
+      "title": "Rocklin Tree Lighting",
+      "venue": "Quarry Park",
+      "date": "2026-12-05",
+      "start": "16:00",
+      "end": "19:00",
+      "host": "Hosted by Rocklin Area Chamber of Commerce",
+      "description": "Free admission. Browse the holiday market, grab a bite from a food truck, and join the tree lighting.",
+      "url": "https://www.rocklinchamber.com/treelighting.html",
+      "category": "festival",
+      "location": "Rocklin, CA"
     }
   ]
 }
