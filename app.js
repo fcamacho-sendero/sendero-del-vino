@@ -2,6 +2,44 @@ const $=id=>document.getElementById(id);
 const saved=new Set(JSON.parse(localStorage.getItem('sdv-saved')||'[]'));
 const categoryNames={music:'Live Music',food:'Food & Dining',festival:'Festival',other:'Experiences'};
 let events=[];
+let communityEvents;
+const cityCalendars = {
+  'Elk Grove': 'https://elkgrove.gov/all-events',
+  'Folsom': 'https://www.folsom.ca.us/government/parks-recreation/recreation/special-events',
+  'Lincoln': 'https://www.lincolnca.gov/parks-recreation-and-activities/special-events/community-events/',
+  'Lodi': 'https://www.lodi.gov/1061/Special-Events'
+};
+const wineryRegions = $('region')?.innerHTML;
+
+function setCalendar(community) {
+  $('winery-mode').setAttribute('aria-pressed', String(!community));
+  $('community-mode').setAttribute('aria-pressed', String(community));
+  $('region-label').textContent = community ? 'City' : 'Region';
+  $('region').innerHTML = community
+    ? '<option value="all">All cities</option>' + Object.keys(cityCalendars).map(city =>
+        `<option value="${city.toLowerCase().replace(' ', '-')}">${city}</option>`).join('')
+    : wineryRegions;
+  $('winery-sources').hidden = community;
+  $('community-sources').hidden = !community;
+  $('source-status').hidden = community;
+  render();
+
+  if (community && !communityEvents) {
+    fetch('./data/community_events.json', {cache: 'no-store'})
+      .then(response => {
+        if (!response.ok) throw new Error('Community calendar unavailable');
+        return response.json();
+      })
+      .then(data => { communityEvents = Array.isArray(data.events) ? data.events : []; })
+      .catch(() => { communityEvents = []; })
+      .finally(render);
+  }
+}
+$('winery-mode')?.addEventListener('click', () => setCalendar(false));
+$('community-mode')?.addEventListener('click', () => setCalendar(true));
+if ($('community-sources')) $('community-sources').innerHTML = 'Official city calendars: ' + Object.entries(cityCalendars).map(([city, url]) =>
+  `<a href="${url}" target="_blank" rel="noopener">${city} ↗</a>`).join(' · ');
+
 function escapeHTML(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function dateAt(iso){return new Date(iso+'T12:00:00');}
 function formatDate(iso){return dateAt(iso).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});}
@@ -81,7 +119,7 @@ function dayPlan(e) {
     <small>Suggested times, Pacific. Confirm winery showtime and venue hours before you go.</small>
   </details>`;
 }
-function render(){const region=$('region').value,cat=$('category').value,when=$('when').value,search=$('search').value.trim().toLowerCase(),fav=$('favoritesOnly').checked;const now=new Date();now.setHours(0,0,0,0);const limit=new Date(now);limit.setDate(limit.getDate()+30);const filtered=events.filter(e=>{const d=dateAt(e.date);return dateAt(e.endDate||e.date)>=now&&(region==='all'||e.region===region)&&(cat==='all'||e.category===cat)&&(when==='all'||(when==='weekend'&&weekend(e.date))||(when==='month'&&d<=limit))&&(!fav||saved.has(e.id))&&(!search||[e.title,e.venue,e.location,e.description].join(' ').toLowerCase().includes(search));}).sort((a,b)=>(a.date+a.start).localeCompare(b.date+b.start));$('count').textContent=filtered.length+' upcoming event'+(filtered.length===1?'':'s');$('cards').innerHTML=filtered.length?filtered.map(e=>{const id=escapeHTML(e.id),title=escapeHTML(e.title),venue=escapeHTML(e.venue),location=escapeHTML(e.location),description=escapeHTML(cardSummary(e.description)),url=escapeHTML(e.url),time=escapeHTML([e.start,e.end].filter(Boolean).join('–'));const photo=cardPhoto(e);return `<article class="card"><div class="photo" style="background-image:url('${photo}')"><span class="pill">${escapeHTML(categoryFor(e))}</span><button class="save" aria-label="${saved.has(e.id)?'Remove from':'Save to'} favorites" data-save="${id}">${saved.has(e.id)?'♥':'♡'}</button></div><div class="card-content"><span class="date">${formatDateRange(e)}</span><h3>${title}</h3><div class="venue">${venue}</div><div class="meta">${time?'◷ '+time+' · ':''}${location}</div><p class="desc">${description}</p><div class="actions"><a href="${escapeHTML(calendarURL(e))}" target="_blank" rel="noopener">+ Google Calendar</a><a href="${url}" target="_blank" rel="noopener">Official event ↗</a><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue,e.location].join(' '))}" target="_blank" rel="noopener">Directions ↗</a></div>${dayPlan(e)}</div></article>`}).join(''):'<div class="empty">No verified upcoming events match these filters yet. Try another region or visit the official event calendars linked above.</div>';}
+function render(){const community = $('community-mode')?.getAttribute('aria-pressed') === 'true';const region=$('region').value,cat=$('category').value,when=$('when').value,search=$('search').value.trim().toLowerCase(),fav=$('favoritesOnly').checked;const now=new Date();now.setHours(0,0,0,0);const limit=new Date(now);limit.setDate(limit.getDate()+30);const filtered=(community ? communityEvents || [] : events).filter(e=>{const d=dateAt(e.date);return dateAt(e.endDate||e.date)>=now&&(region==='all'||(community ? e.city : e.region)===region)&&(cat==='all'||e.category===cat)&&(when==='all'||(when==='weekend'&&weekend(e.date))||(when==='month'&&d<=limit))&&(!fav||saved.has(e.id))&&(!search||[e.title,e.venue,e.location,e.description].join(' ').toLowerCase().includes(search));}).sort((a,b)=>(a.date+a.start).localeCompare(b.date+b.start));$('count').textContent=filtered.length+' upcoming event'+(filtered.length===1?'':'s');$('cards').innerHTML=filtered.length?filtered.map(e=>{const id=escapeHTML(e.id),title=escapeHTML(e.title),venue=escapeHTML(e.venue),location=escapeHTML(e.location),description=escapeHTML(cardSummary(e.description)),url=escapeHTML(e.url),time=escapeHTML([e.start,e.end].filter(Boolean).join('–'));const photo=cardPhoto(e);return `<article class="card"><div class="photo" style="background-image:url('${photo}')"><span class="pill">${escapeHTML(categoryFor(e))}</span><button class="save" aria-label="${saved.has(e.id)?'Remove from':'Save to'} favorites" data-save="${id}">${saved.has(e.id)?'♥':'♡'}</button></div><div class="card-content"><span class="date">${formatDateRange(e)}</span><h3>${title}</h3><div class="venue">${venue}</div><div class="meta">${time?'◷ '+time+' · ':''}${location}${e.host ? ' · ' + escapeHTML(e.host) : ''}</div><p class="desc">${description}</p><div class="actions"><a href="${escapeHTML(calendarURL(e))}" target="_blank" rel="noopener">+ Google Calendar</a><a href="${url}" target="_blank" rel="noopener">Official event ↗</a><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue,e.location].join(' '))}" target="_blank" rel="noopener">Directions ↗</a></div>${dayPlan(e)}</div></article>`}).join(''):`<div class="empty">${community && !communityEvents ? 'Loading community events…' : 'No upcoming events match these filters. Try a different filter or check the official calendars above.'}</div>`;}
 ['region','category','when','search','favoritesOnly'].forEach(id=>$(id).addEventListener('input',render));
 $('cards').addEventListener('click',e=>{const b=e.target.closest('[data-save]');if(!b)return;const key=b.dataset.save;saved.has(key)?saved.delete(key):saved.add(key);localStorage.setItem('sdv-saved',JSON.stringify([...saved]));render();});
 function uniqueEvents(feeds){const seen=new Set();return feeds.flat().filter(e=>{const norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');const key=[e.date,norm(e.title),norm(e.venue)].join('|');if(seen.has(key))return false;seen.add(key);return true;});}
