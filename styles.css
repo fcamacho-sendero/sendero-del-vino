@@ -33,3 +33,10 @@
 .hero-shade .hero-button{position:absolute;left:6.2%;top:73%;width:17%;height:12%;margin:0;padding:0;opacity:0}
 .hero-shade .hero-button:focus-visible{opacity:1;outline:3px solid #c8a46a}
 @media(max-width:600px){.hero{width:100%}}
+
+.day-plan{margin-top:16px;border-top:1px solid #eadfe0;padding-top:12px;font-size:13px;line-height:1.5}
+.day-plan summary{color:var(--wine);font-weight:700;cursor:pointer}
+.day-plan ol{margin:12px 0 0;padding-inline-start:22px}
+.day-plan li+li{margin-top:10px}
+.day-plan a{color:var(--wine);text-underline-offset:2px}
+.day-plan small{display:block;margin-top:12px;color:var(--muted)}
