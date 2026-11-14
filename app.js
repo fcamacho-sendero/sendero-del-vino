@@ -40,10 +40,13 @@ Promise.all([
   fetch('./data/visit_lodi_events.json',{cache:'no-store'})
     .then(r => r.ok ? r.json() : {events: []})
     .catch(() => ({events: []})),
+  fetch('./data/placer_events.json',{cache:'no-store'})
+    .then(r => r.ok ? r.json() : {events: []})
+    .catch(() => ({events: []})),
   fetch('./data/explore_events.json',{cache:'no-store'})
     .then(r => r.ok ? r.json() : {events: []})
     .catch(() => ({events: []}))
-]).then(([amador, local, oak, visitLodi, explore]) => ({
+]).then(([amador, local, oak, visitLodi, placer, explore]) => ({
   updatedAt: amador.updatedAt,
-  events: uniqueEvents([amador.events || [], local.events || [], oak.events || [], visitLodi.events || [], explore.events || []])
+  events: uniqueEvents([amador.events || [], local.events || [], oak.events || [], visitLodi.events || [], placer.events || [], explore.events || []])
 })).then(data=>{events=Array.isArray(data.events)?data.events:[];const updated=data.updatedAt?new Date(data.updatedAt).toLocaleString('en-US',{timeZone:'America/Los_Angeles',dateStyle:'medium',timeStyle:'short'}):'Not yet updated';$('source-status').textContent=`Verified-source event feed · Last successful collection: ${updated} Pacific · ${events.length} events in feed. Event details can change; confirm with organizer.`;render();}).catch(()=>{$('source-status').textContent='Event feed unavailable. Please check the official calendars.';render();});
