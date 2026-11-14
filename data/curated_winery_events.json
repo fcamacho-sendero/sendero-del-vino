@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "id": "winery-2026-11-14-andis-holiday-release",
+      "date": "2026-11-14",
+      "start": "11:00",
+      "end": "16:30",
+      "category": "festival",
+      "title": "Holiday Wine Release Party",
+      "venue": "Andis Wines",
+      "location": "Plymouth, CA",
+      "region": "amador",
+      "description": "New wine releases, food pairings, and a market featuring local artisans.",
+      "url": "https://andiswines.com/event/amador-county-holiday-wine-release-party/"
+    },
+    {
+      "id": "winery-2026-11-15-mettler-fall-fest",
+      "date": "2026-11-15",
+      "start": "12:00",
+      "end": "16:00",
+      "category": "other",
+      "title": "Fall Fest Release Party",
+      "venue": "Mettler Family Vineyards",
+      "location": "Lodi, CA",
+      "region": "lodi",
+      "description": "A fall wine release party at Mettler Family Vineyards.",
+      "url": "https://www.mettlerwine.com/event/fall-fest-releas-party/"
+    },
+    {
+      "id": "winery-2026-11-20-bella-grace-friday-food",
+      "date": "2026-11-20",
+      "start": "11:30",
+      "end": "14:00",
+      "category": "food",
+      "title": "Friday Food at the Cave with Chef Rob",
+      "venue": "Bella Grace Vineyards",
+      "location": "Plymouth, CA",
+      "region": "amador",
+      "description": "Wine tasting and food from Chef Rob at the vineyard estate’s wine cave.",
+      "url": "https://www.bellagracevineyards.com/events/"
+    },
+    {
+      "id": "winery-2026-12-05-klinker-brick-santa",
+      "date": "2026-12-05",
+      "start": "11:00",
+      "end": "16:00",
+      "category": "festival",
+      "title": "Santa Loves Lodi",
+      "venue": "Klinker Brick Winery",
+      "location": "Lodi, CA",
+      "region": "lodi",
+      "description": "Love Lodi and Klinker Brick host a holiday celebration at the winery.",
+      "url": "https://visitlodi.com/events/santa-loves-lodi-at-klinker-brick-winery/"
+    },
+    {
+      "id": "winery-2026-12-05-bokisch-catalan-fiesta",
+      "date": "2026-12-05",
+      "start": "12:00",
+      "end": "15:00",
+      "category": "festival",
+      "title": "Catalan Holiday Fiesta",
+      "venue": "Bokisch Vineyards",
+      "location": "Lodi, CA",
+      "region": "lodi",
+      "description": "A Catalan-inspired celebration with holiday music and cork ornament making.",
+      "url": "https://visitlodi.com/events/catalan-holiday-fiesta-at-bokisch-vineyards/"
+    },
+    {
+      "id": "winery-2026-12-09-harney-lane-vintners-table",
+      "date": "2026-12-09",
+      "start": "17:30",
+      "end": "20:00",
+      "category": "food",
+      "title": "Harney Lane Vineyards at Vintner’s Table",
+      "venue": "Americana House",
+      "location": "Lodi, CA",
+      "region": "lodi",
+      "description": "An evening at Americana House featuring Harney Lane wines and the family behind them.",
+      "url": "https://visitlodi.com/events/harney-lane-vineyards-at-vintners-table-at-americana-house/"
+    },
+    {
+      "id": "winery-2026-12-13-michael-david-merry-market",
+      "date": "2026-12-13",
+      "start": "11:00",
+      "end": "15:00",
+      "category": "festival",
+      "title": "Merry Market",
+      "venue": "Michael David Winery",
+      "location": "Lodi, CA",
+      "region": "lodi",
+      "description": "Free, all-ages holiday market with artisans, food trucks, and Santa from noon to 2 p.m. RSVP requested.",
+      "url": "https://michaeldavidwinery.com/events/"
+    }
+  ]
+}
