@@ -1,0 +1,122 @@
+{
+  "events": [
+    {
+      "id": "placer-2026-11-15-rancho-spare-parts",
+      "region": "placer",
+      "date": "2026-11-15",
+      "start": "14:00",
+      "end": "17:00",
+      "category": "music",
+      "title": "Spare Parts and Cousins Maine Lobster",
+      "venue": "Rancho Roble Vineyards",
+      "location": "Lincoln, CA",
+      "description": "Live music from Spare Parts and food from the Cousins Maine Lobster truck.",
+      "url": "https://www.ranchoroble.com/happenings-at-rancho"
+    },
+    {
+      "id": "placer-2026-11-19-twin-rocks-friendsgiving",
+      "region": "placer",
+      "date": "2026-11-19",
+      "start": "18:00",
+      "end": "20:00",
+      "category": "food",
+      "title": "Friendsgiving Winemaker Dinner",
+      "venue": "Twin Rocks Estate Winery",
+      "location": "Granite Bay, CA",
+      "description": "A five-course dinner in the wine cave. The winery lists tickets at $149 per person.",
+      "url": "https://www.trwinery.com/winery-hosted-event"
+    },
+    {
+      "id": "placer-2026-11-20-twin-rocks-patrick-walsh",
+      "region": "placer",
+      "date": "2026-11-20",
+      "start": "16:00",
+      "end": "18:00",
+      "category": "music",
+      "title": "Friday Night Live Music with Patrick Walsh",
+      "venue": "Twin Rocks Estate Winery",
+      "location": "Granite Bay, CA",
+      "description": "Patrick Walsh performs at the winery on Friday afternoon.",
+      "url": "https://www.trwinery.com/winery-hosted-event"
+    },
+    {
+      "id": "placer-2026-11-22-dono-spare-parts",
+      "region": "placer",
+      "date": "2026-11-22",
+      "start": "12:00",
+      "end": "17:00",
+      "category": "music",
+      "title": "The Spare Parts Band and Engine 41 Pizza",
+      "venue": "Dono dal Cielo Vineyard",
+      "location": "Newcastle, CA",
+      "description": "A Sunday winery outing with live music and Engine 41 Pizza. The listed hours are for the winery event.",
+      "url": "https://www.donodalcielo.com/events/2026-11-22-music-tbd"
+    },
+    {
+      "id": "placer-2026-11-27-dono-cover-up",
+      "region": "placer",
+      "date": "2026-11-27",
+      "start": "16:00",
+      "end": "18:00",
+      "category": "music",
+      "title": "Dono Unplugged with The Cover Up Band",
+      "venue": "Dono dal Cielo Vineyard",
+      "location": "Newcastle, CA",
+      "description": "Live music and Engine 41 Pizza from 4 to 6 p.m. The winery is open noon to 7 p.m.",
+      "url": "https://www.donodalcielo.com/events/2026-11-27-winery-hours"
+    },
+    {
+      "id": "placer-2026-12-03-wise-villa-sip-paint",
+      "region": "placer",
+      "date": "2026-12-03",
+      "start": "17:30",
+      "end": "19:00",
+      "category": "other",
+      "title": "December Sip and Paint",
+      "venue": "Wise Villa Winery and Restaurant",
+      "location": "Lincoln, CA",
+      "description": "Paint a Santa owl with Keiralee Ortiz. The listed $50 price plus fees includes materials and a glass of wine.",
+      "url": "https://wisevillawinery.com/upcoming-events/"
+    },
+    {
+      "id": "placer-2026-12-05-holidays-in-the-hills",
+      "region": "placer",
+      "date": "2026-12-05",
+      "endDate": "2026-12-06",
+      "start": "12:00",
+      "end": "17:00",
+      "category": "festival",
+      "title": "Holidays in the Hills",
+      "venue": "Placer Wine Trail",
+      "location": "Loomis, Lincoln, Granite Bay, Newcastle, Auburn and Rocklin, CA",
+      "description": "A ticketed, self-guided tasting weekend from noon to 5 p.m. each day. Participating wineries include Casque Wines in Loomis. Check the organizer for the full lineup.",
+      "url": "https://placerwine.com/plan-your-visit/events/holidays-in-the-hills/"
+    },
+    {
+      "id": "placer-2026-12-09-wise-villa-wine-blending",
+      "region": "placer",
+      "date": "2026-12-09",
+      "start": "18:00",
+      "end": "20:00",
+      "category": "food",
+      "title": "Holiday Wine Blending Party",
+      "venue": "Wise Villa Winery",
+      "location": "Lincoln, CA",
+      "description": "Blend and bottle a custom wine, then sit down for a four-course dinner.",
+      "url": "https://wisevillawinery.com/upcoming-events/"
+    },
+    {
+      "id": "placer-2026-12-12-rancho-sip-shop",
+      "region": "placer",
+      "date": "2026-12-12",
+      "start": "11:00",
+      "end": "17:00",
+      "category": "other",
+      "title": "Sip N Shop",
+      "venue": "Rancho Roble Vineyards",
+      "location": "Lincoln, CA",
+      "description": "A December sip-and-shop event at the vineyard.",
+      "url": "https://www.ranchoroble.com/happenings-at-rancho"
+    }
+  ]
+}
