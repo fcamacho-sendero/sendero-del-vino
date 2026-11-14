@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-13T14:43:20.884056+00:00",
+  "updatedAt": "2026-11-14T14:32:37.022130+00:00",
   "events": [
-    {
-      "id": "676dcb2c3d00424cdf",
-      "title": "Friday Pizza Festa at Domenico!",
-      "venue": "Domenico Winery &#038; Vineyard",
-      "region": "amador",
-      "category": "music",
-      "date": "2026-11-13",
-      "endDate": "2026-11-13",
-      "start": "15:00",
-      "end": "20:00",
-      "location": "Ione, CA",
-      "description": "Our Friday Pizza Festa is back featuring live music, award-winning wines and artisan pizzas baked by our owner Dominick Chirichillo.&nbsp; No reservation needed but come early for the best seats.",
-      "url": "https://amadorwine.com/event/friday-pizza-festa-at-domenico-9/"
-    },
     {
       "id": "81c0acdb6b9c069853",
       "title": "Amador Cellars 22nd Anniversary",

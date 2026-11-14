@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-13T06:43:29.058905-08:00",
+  "updatedAt": "2026-11-14T06:32:45.789133-08:00",
   "events": [
-    {
-      "id": "2c67417707afc04afc",
-      "title": "I Heart R&B Nights at Ever After Wine",
-      "venue": "Ever After Wine",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-13",
-      "endDate": "2026-11-13",
-      "start": "18:00",
-      "end": "22:00",
-      "location": "Elk Grove, CA",
-      "description": "DJ TuneG with 90s-00s-now R&B and a splash of hip hop!",
-      "url": "https://www.exploreelkgrove.com/events/i-heart-r-b-nights-at-ever-after-wine/"
-    },
     {
       "id": "8998057db39d45c8a2",
       "title": "Friendsgiving Game Night at Ever After Wine",
