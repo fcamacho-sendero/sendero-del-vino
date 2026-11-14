@@ -90,6 +90,9 @@ Promise.all([
     if (!r.ok) throw new Error('Amador events unavailable');
     return r.json();
   }),
+  fetch('./data/curated_winery_events.json',{cache:'no-store'})
+    .then(r => r.ok ? r.json() : {events: []})
+    .catch(() => ({events: []})),
   fetch('./data/bogle_events.json',{cache:'no-store'})
     .then(r => r.ok ? r.json() : {events: []})
     .catch(() => ({events: []})),
@@ -108,7 +111,7 @@ Promise.all([
   fetch('./data/explore_events.json',{cache:'no-store'})
     .then(r => r.ok ? r.json() : {events: []})
     .catch(() => ({events: []}))
-]).then(([amador, bogle, local, oak, visitLodi, placer, explore]) => ({
+]).then(([amador, curatedWineries, bogle, local, oak, visitLodi, placer, explore]) => ({
   updatedAt: amador.updatedAt,
-  events: uniqueEvents([amador.events || [], bogle.events || [], local.events || [], oak.events || [], visitLodi.events || [], placer.events || [], explore.events || []])
+  events: uniqueEvents([amador.events || [], curatedWineries.events || [], bogle.events || [], local.events || [], oak.events || [], visitLodi.events || [], placer.events || [], explore.events || []])
 })).then(data=>{events=Array.isArray(data.events)?data.events:[];const updated=data.updatedAt?new Date(data.updatedAt).toLocaleString('en-US',{timeZone:'America/Los_Angeles',dateStyle:'medium',timeStyle:'short'}):'Not yet updated';$('source-status').textContent=`Verified-source event feed · Last successful collection: ${updated} Pacific · ${events.length} events in feed. Event details can change; confirm with organizer.`;render();}).catch(()=>{$('source-status').textContent='Event feed unavailable. Please check the official calendars.';render();});
