@@ -38,7 +38,50 @@ function cardSummary(description) {
   return excerpt.slice(0, wordEnd > 0 ? wordEnd : limit - 1).trimEnd() + '…';
 }
 function calendarURL(e){const stamp=(date,time)=>date.replace(/-/g,'')+'T'+(time||'12:00').replace(':','')+'00';const q=new URLSearchParams({action:'TEMPLATE',text:e.title,dates:stamp(e.date,e.start)+'/'+stamp(e.endDate||e.date,e.end||e.start||'13:00'),ctz:'America/Los_Angeles',details:(e.description||'')+'\nConfirm details with the organizer: '+e.url,location:[e.venue,e.location].filter(Boolean).join(', ')});return 'https://calendar.google.com/calendar/render?'+q;}
-function render(){const region=$('region').value,cat=$('category').value,when=$('when').value,search=$('search').value.trim().toLowerCase(),fav=$('favoritesOnly').checked;const now=new Date();now.setHours(0,0,0,0);const limit=new Date(now);limit.setDate(limit.getDate()+30);const filtered=events.filter(e=>{const d=dateAt(e.date);return dateAt(e.endDate||e.date)>=now&&(region==='all'||e.region===region)&&(cat==='all'||e.category===cat)&&(when==='all'||(when==='weekend'&&weekend(e.date))||(when==='month'&&d<=limit))&&(!fav||saved.has(e.id))&&(!search||[e.title,e.venue,e.location,e.description].join(' ').toLowerCase().includes(search));}).sort((a,b)=>(a.date+a.start).localeCompare(b.date+b.start));$('count').textContent=filtered.length+' upcoming event'+(filtered.length===1?'':'s');$('cards').innerHTML=filtered.length?filtered.map(e=>{const id=escapeHTML(e.id),title=escapeHTML(e.title),venue=escapeHTML(e.venue),location=escapeHTML(e.location),description=escapeHTML(cardSummary(e.description)),url=escapeHTML(e.url),time=escapeHTML([e.start,e.end].filter(Boolean).join('–'));const photo=cardPhoto(e);return `<article class="card"><div class="photo" style="background-image:url('${photo}')"><span class="pill">${escapeHTML(categoryFor(e))}</span><button class="save" aria-label="${saved.has(e.id)?'Remove from':'Save to'} favorites" data-save="${id}">${saved.has(e.id)?'♥':'♡'}</button></div><div class="card-content"><span class="date">${formatDateRange(e)}</span><h3>${title}</h3><div class="venue">${venue}</div><div class="meta">${time?'◷ '+time+' · ':''}${location}</div><p class="desc">${description}</p><div class="actions"><a href="${escapeHTML(calendarURL(e))}" target="_blank" rel="noopener">+ Google Calendar</a><a href="${url}" target="_blank" rel="noopener">Official event ↗</a><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue,e.location].join(' '))}" target="_blank" rel="noopener">Directions ↗</a></div></div></article>`}).join(''):'<div class="empty">No verified upcoming events match these filters yet. Try another region or visit the official event calendars linked above.</div>';}
+const graniteBayDayPlanEvents = new Set([
+  'placer-2026-11-20-twin-rocks-patrick-walsh',
+  'placer-2026-12-04-twin-rocks-guitar-sax'
+]);
+
+function mapDirections(destination) {
+  return 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(destination);
+}
+
+function dayPlan(e) {
+  if (!graniteBayDayPlanEvents.has(e.id)) return '';
+
+  const stops = [
+    {
+      time: '12:30 PM',
+      name: 'Lunch at Farmhaus',
+      note: 'Start with lunch at this Granite Bay restaurant.',
+      url: 'https://www.farmhausgb.com/',
+      address: 'Farmhaus, 8230 Auburn Folsom Road, Granite Bay, CA'
+    },
+    {
+      time: '2:00 PM',
+      name: 'Folsom Lake at Granite Bay',
+      note: 'Take a short lakeside walk or spend some time enjoying the view. Check park conditions before heading out.',
+      url: 'https://www.parks.ca.gov/?page_id=10916',
+      address: 'Granite Bay Main Beach, Folsom Lake State Recreation Area, Granite Bay, CA'
+    },
+    {
+      time: '4:00 PM',
+      name: 'Live music at Twin Rocks Estate Winery',
+      note: 'Finish the afternoon with live music at the winery.',
+      url: e.url,
+      address: 'Twin Rocks Estate Winery, 6635 Cavitt Stallman Road, Granite Bay, CA'
+    }
+  ];
+
+  return `<details class="day-plan">
+    <summary>Make a Day of It</summary>
+    <ol>${stops.map(stop => `<li><strong>${stop.time} · <a href="${escapeHTML(stop.url)}" target="_blank" rel="noopener">${stop.name}</a></strong><br>
+      ${stop.note} <a href="${escapeHTML(mapDirections(stop.address))}" target="_blank" rel="noopener" aria-label="Directions to ${stop.name}">Directions ↗</a></li>`).join('')}</ol>
+    <small>Suggested times, Pacific. Confirm winery showtime and venue hours before you go.</small>
+  </details>`;
+}
+function render(){const region=$('region').value,cat=$('category').value,when=$('when').value,search=$('search').value.trim().toLowerCase(),fav=$('favoritesOnly').checked;const now=new Date();now.setHours(0,0,0,0);const limit=new Date(now);limit.setDate(limit.getDate()+30);const filtered=events.filter(e=>{const d=dateAt(e.date);return dateAt(e.endDate||e.date)>=now&&(region==='all'||e.region===region)&&(cat==='all'||e.category===cat)&&(when==='all'||(when==='weekend'&&weekend(e.date))||(when==='month'&&d<=limit))&&(!fav||saved.has(e.id))&&(!search||[e.title,e.venue,e.location,e.description].join(' ').toLowerCase().includes(search));}).sort((a,b)=>(a.date+a.start).localeCompare(b.date+b.start));$('count').textContent=filtered.length+' upcoming event'+(filtered.length===1?'':'s');$('cards').innerHTML=filtered.length?filtered.map(e=>{const id=escapeHTML(e.id),title=escapeHTML(e.title),venue=escapeHTML(e.venue),location=escapeHTML(e.location),description=escapeHTML(cardSummary(e.description)),url=escapeHTML(e.url),time=escapeHTML([e.start,e.end].filter(Boolean).join('–'));const photo=cardPhoto(e);return `<article class="card"><div class="photo" style="background-image:url('${photo}')"><span class="pill">${escapeHTML(categoryFor(e))}</span><button class="save" aria-label="${saved.has(e.id)?'Remove from':'Save to'} favorites" data-save="${id}">${saved.has(e.id)?'♥':'♡'}</button></div><div class="card-content"><span class="date">${formatDateRange(e)}</span><h3>${title}</h3><div class="venue">${venue}</div><div class="meta">${time?'◷ '+time+' · ':''}${location}</div><p class="desc">${description}</p><div class="actions"><a href="${escapeHTML(calendarURL(e))}" target="_blank" rel="noopener">+ Google Calendar</a><a href="${url}" target="_blank" rel="noopener">Official event ↗</a><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue,e.location].join(' '))}" target="_blank" rel="noopener">Directions ↗</a></div>${dayPlan(e)}</div></article>`}).join(''):'<div class="empty">No verified upcoming events match these filters yet. Try another region or visit the official event calendars linked above.</div>';}
 ['region','category','when','search','favoritesOnly'].forEach(id=>$(id).addEventListener('input',render));
 $('cards').addEventListener('click',e=>{const b=e.target.closest('[data-save]');if(!b)return;const key=b.dataset.save;saved.has(key)?saved.delete(key):saved.add(key);localStorage.setItem('sdv-saved',JSON.stringify([...saved]));render();});
 function uniqueEvents(feeds){const seen=new Set();return feeds.flat().filter(e=>{const norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');const key=[e.date,norm(e.title),norm(e.venue)].join('|');if(seen.has(key))return false;seen.add(key);return true;});}
