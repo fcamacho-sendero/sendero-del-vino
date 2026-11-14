@@ -40,6 +40,19 @@
       "url": "https://www.trwinery.com/winery-hosted-event"
     },
     {
+      "id": "placer-2026-11-21-twin-rocks-comedy-show",
+      "region": "placer",
+      "date": "2026-11-21",
+      "start": "18:00",
+      "end": "20:30",
+      "category": "other",
+      "title": "Twin Rocks Comedy Show",
+      "venue": "Twin Rocks Estate Winery",
+      "location": "Granite Bay, CA",
+      "description": "Stand-up comedy with a buffet dinner. Doors open at 6 p.m. and the show starts at 7 p.m. The winery lists tickets at $60.",
+      "url": "https://www.trwinery.com/winery-hosted-event?event_page=1"
+    },
+    {
       "id": "placer-2026-11-22-dono-spare-parts",
       "region": "placer",
       "date": "2026-11-22",
@@ -51,6 +64,19 @@
       "location": "Newcastle, CA",
       "description": "A Sunday winery outing with live music and Engine 41 Pizza. The listed hours are for the winery event.",
       "url": "https://www.donodalcielo.com/events/2026-11-22-music-tbd"
+    },
+    {
+      "id": "placer-2026-11-27-twin-rocks-holiday-bazaar",
+      "region": "placer",
+      "date": "2026-11-27",
+      "start": "11:00",
+      "end": "17:00",
+      "category": "other",
+      "title": "Holiday Shopping Bazaar",
+      "venue": "Twin Rocks Estate Winery",
+      "location": "Granite Bay, CA",
+      "description": "Shop local artisans, enjoy live music, and get 20% off wine by the glass.",
+      "url": "https://www.trwinery.com/winery-hosted-event?event_page=1"
     },
     {
       "id": "placer-2026-11-27-dono-cover-up",
@@ -66,6 +92,19 @@
       "url": "https://www.donodalcielo.com/events/2026-11-27-winery-hours"
     },
     {
+      "id": "placer-2026-11-28-twin-rocks-holiday-bazaar",
+      "region": "placer",
+      "date": "2026-11-28",
+      "start": "11:00",
+      "end": "17:00",
+      "category": "other",
+      "title": "Holiday Shopping Bazaar",
+      "venue": "Twin Rocks Estate Winery",
+      "location": "Granite Bay, CA",
+      "description": "Shop local artisans, enjoy live music, and get 20% off wine by the glass.",
+      "url": "https://www.trwinery.com/winery-hosted-event?event_page=1"
+    },
+    {
       "id": "placer-2026-12-03-wise-villa-sip-paint",
       "region": "placer",
       "date": "2026-12-03",
@@ -77,6 +116,32 @@
       "location": "Lincoln, CA",
       "description": "Paint a Santa owl with Keiralee Ortiz. The listed $50 price plus fees includes materials and a glass of wine.",
       "url": "https://wisevillawinery.com/upcoming-events/"
+    },
+    {
+      "id": "placer-2026-12-04-twin-rocks-guitar-sax",
+      "region": "placer",
+      "date": "2026-12-04",
+      "start": "16:00",
+      "end": "18:00",
+      "category": "music",
+      "title": "Friday Night Live Music with Guitar and Sax",
+      "venue": "Twin Rocks Estate Winery",
+      "location": "Granite Bay, CA",
+      "description": "An afternoon of live guitar and saxophone at the winery.",
+      "url": "https://www.trwinery.com/winery-hosted-event?event_page=1"
+    },
+    {
+      "id": "placer-2026-12-05-twin-rocks-santa-brunch",
+      "region": "placer",
+      "date": "2026-12-05",
+      "start": "09:00",
+      "end": "12:00",
+      "category": "food",
+      "title": "Santa Brunch",
+      "venue": "Twin Rocks Estate Winery",
+      "location": "Granite Bay, CA",
+      "description": "Brunch by Chef Minnie and photos with Santa. The winery lists tickets at $79 for adults and $35 for children.",
+      "url": "https://www.trwinery.com/winery-hosted-event?event_page=1"
     },
     {
       "id": "placer-2026-12-05-holidays-in-the-hills",
