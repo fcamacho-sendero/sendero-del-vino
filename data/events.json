@@ -1,34 +1,6 @@
 {
-  "updatedAt": "2026-11-14T14:32:37.022130+00:00",
+  "updatedAt": "2026-11-15T14:34:15.395875+00:00",
   "events": [
-    {
-      "id": "81c0acdb6b9c069853",
-      "title": "Amador Cellars 22nd Anniversary",
-      "venue": "Amador Wine Country",
-      "region": "amador",
-      "category": "music",
-      "date": "2026-11-14",
-      "endDate": "2026-11-14",
-      "start": "11:00",
-      "end": "15:00",
-      "location": "Amador County, CA",
-      "description": "Please join us to celebrate our 22nd Anniversary In the Barn at Amador Cellars. Help us celebrate 22 years in Amador County.&nbsp;&nbsp; Enjoy a specially curated list of wines while listening to live music by 4Thought and eating authentic Argentinian fare from Buenos Aires Food Truck.&nbsp; There will also be holiday wine speci",
-      "url": "https://amadorwine.com/event/amador-cellars-22nd-anniversary/"
-    },
-    {
-      "id": "aa33dab2747a5156f1",
-      "title": "Spend time in the vineyard",
-      "venue": "Villegas Family Vineyard",
-      "region": "amador",
-      "category": "other",
-      "date": "2026-11-14",
-      "endDate": "2026-11-14",
-      "start": "11:00",
-      "end": "15:00",
-      "location": "Amador County, CA",
-      "description": "Tour of vineyard post harvest with the Villegas Family. &nbsp;Talk about different varietals. &nbsp;Time for questions. &nbsp;Class on wreath making . &nbsp;Space limited email Terry at vfvwine@gmail.com",
-      "url": "https://amadorwine.com/event/spend-time-in-the-vineyard/"
-    },
     {
       "id": "17523831322fe98d89",
       "title": "Vino Noceto | Holiday Sip &#038; Paint",

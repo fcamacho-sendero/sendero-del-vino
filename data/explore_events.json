@@ -1,34 +1,6 @@
 {
-  "updatedAt": "2026-11-14T06:32:45.789133-08:00",
+  "updatedAt": "2026-11-15T06:34:24.764249-08:00",
   "events": [
-    {
-      "id": "8998057db39d45c8a2",
-      "title": "Friendsgiving Game Night at Ever After Wine",
-      "venue": "Ever After Wine",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-14",
-      "endDate": "2026-11-14",
-      "start": "18:00",
-      "end": "20:30",
-      "location": "Elk Grove, CA",
-      "description": "Gather around with friends and play games while enjoying delicious wines!",
-      "url": "https://www.exploreelkgrove.com/events/friendsgiving-game-night-at-ever-after-wine/"
-    },
-    {
-      "id": "d711b5d57664206103",
-      "title": "Holiday Sip & Stroll at McConnell Estates",
-      "venue": "McConnell Estates",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-14",
-      "endDate": "2026-11-14",
-      "start": "17:00",
-      "end": "20:00",
-      "location": "Elk Grove, CA",
-      "description": "Sip and shop with us at our Holiday Sip & Stroll on Saturday, November 14th! From 5 pm to 8 pm, spend your Saturday night holiday shopping from local",
-      "url": "https://www.exploreelkgrove.com/events/holiday-sip-stroll-at-mcconnell-estates/"
-    },
     {
       "id": "3a1806160191a3548f",
       "title": "November Book Club at Ever After Wine",
