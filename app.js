@@ -16,6 +16,7 @@ const cityCalendars = {
   "Isleton": "https://www.cityofisleton.com/community-events",
   "Lincoln": "https://www.lincolnca.gov/parks-recreation-and-activities/special-events/community-events/",
   "Lodi": "https://www.lodi.gov/1061/Special-Events",
+  "Nevada City": "https://www.nevadacitychamber.com/events/",
   "Oakley": "https://www.oakleyca.gov/369/Special-Events",
   "Placerville": "https://www.cityofplacerville.org/events",
   "Rancho Cordova": "https://www.cityofranchocordova.org/experience/rancho-cordova-events/-toggle-next30days",
