@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T08:04:23.082215-08:00",
+  "updatedAt": "2026-11-17T06:48:14.865218-08:00",
   "events": [
     {
       "id": "fe773917cecda9ca2a",
@@ -126,6 +126,20 @@
       "location": "Lodi, CA",
       "description": "Celebrate the Season at Oak Farm Vineyards  Bundle up and join us for our annual Christmas Stroll! This year, we’ve created two distinct experiences so you can celebrate the holidays your way. Whether you are looking for a festive family evening or a cozy night out with friends, we have a stroll for you.     Christmas Stroll (Adult Nights)    December 4th, 5th, 17th, & 18th 6:00 PM – 9:00 PM (VIP hour starts at 5:00 PM)  General Admission $25 | VIP $35 (VIP hour starts at 5:00 PM)  Each person requires their own ticket. Tickets are not sold per group or per family.  Dec 4: Buy Tickets General Admission VIP Sold Out  Dec 5: Buy Tickets General Admission Buy Tickets VIP  Dec 17: Buy Tickets General Admission Buy Tickets VIP  Dec 18: Buy Tickets General Admission Buy Tickets VIP    Unwind at the vineyard for a relaxing, adults-focused holiday evening. Stroll through our breathtaking Christmas light displays and enjoy a cozy wagon ride around the estate with a complimentary welcome pour of Oak Farm wine. Spiked cider, wine by the glass or bottle, and delicious bites from local food trucks will also be available for purchase. VIP ticket gets you 1 hour early access entry. VIP tickets ar",
       "url": "https://www.oakfarmvineyards.com/events-calendar/christmas-holiday-stroll-adult-nights-dec18/"
+    },
+    {
+      "id": "d86aed855b9cab7322",
+      "title": "Lodi Wine & Chocolate Weekend",
+      "venue": "Oak Farm Vineyards",
+      "region": "lodi",
+      "category": "other",
+      "date": "2027-02-06",
+      "endDate": "2027-02-07",
+      "start": "",
+      "end": "",
+      "location": "Lodi, CA",
+      "description": "Lodi Wine & Chocolate turns 30! Celebrate with us at Oak Farm Vineyards during two days of winery tours across Lodi wine country, Saturday, February 6 and Sunday, February 7, 2027, from 11 AM to 4 PM both days.  Your ticket includes a 15 oz stemless wine glass, wine tastings and chocolate treats at participating wineries on your ticketed day or days.  Weekend Pass (Saturday and Sunday): $75 per personSunday Only: $55 per person  Tickets are sold only at lodiwineandchocolate.com and are not available at the door. Ticket sales close at midnight on Thursday, February 4. Must be 21 or older with valid ID.",
+      "url": "https://www.oakfarmvineyards.com/events-calendar/lodi-wine-chocolate-weekend/"
     }
   ],
   "sources": [
