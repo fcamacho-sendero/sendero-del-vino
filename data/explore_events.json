@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T06:48:14.194611-08:00",
+  "updatedAt": "2026-11-18T06:44:06.121704-08:00",
   "events": [
     {
       "id": "3a1806160191a3548f",
@@ -28,6 +28,20 @@
       "location": "Elk Grove, CA",
       "description": "Experience the paring of Swiss wines and Raclette with Ever After X DDI Wines",
       "url": "https://www.exploreelkgrove.com/events/swiss-wine-raclette-pairing-at-ever-after-wine/"
+    },
+    {
+      "id": "2827d1f9a18a417129",
+      "title": "Thanksgiving Week at Christopher Cellars",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-24",
+      "endDate": "2026-11-27",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "Thanksgiving is just around the corner, and we have a full week of wine, music, and holiday festivities at Christopher Cellars! NEW THIS WEEK | Six Wines for",
+      "url": "https://www.exploreelkgrove.com/events/thanksgiving-week-at-christopher-cellars/"
     }
   ],
   "sources": [

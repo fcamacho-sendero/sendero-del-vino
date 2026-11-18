@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T16:04:14.715592+00:00",
+  "updatedAt": "2026-11-18T14:43:58.674565+00:00",
   "events": [
     {
       "id": "18b2b3369090c0c5b0",
@@ -42,6 +42,48 @@
       "location": "Amador County, CA",
       "description": "Make Iron Hub part of your Black Friday plans! Stop by for special offers, enjoy small bites, and find a bottle or two for your holiday table or gift list. We look forward to seeing you at the winery!",
       "url": "https://amadorwine.com/event/black-friday-at-iron-hub/"
+    },
+    {
+      "id": "99fa554a8782965ba0",
+      "title": "Black Friday Weekend at Terre Rouge &#038; Easton Wines",
+      "venue": "Terre Rouge and Easton",
+      "region": "amador",
+      "category": "other",
+      "date": "2026-11-27",
+      "endDate": "2026-11-30",
+      "start": "11:00",
+      "end": "16:00",
+      "location": "Plymouth, CA",
+      "description": "Skip the crowds and spend a little time in wine country. We&#8217;re offering some great deals on select wines, including beautifully aged bottles at significantly reduced prices. Bring the family, enjoy a relaxing post-Thanksgiving afternoon in the Foothills, and pick up wines to enjoy over the holidays. Sale available in our t",
+      "url": "https://amadorwine.com/event/black-friday-weekend-at-terre-rouge-easton-wines/"
+    },
+    {
+      "id": "4e6875ffccb8baca72",
+      "title": "Black Friday at Casino Mine Ranch Winery",
+      "venue": "Casino Mine Ranch",
+      "region": "amador",
+      "category": "other",
+      "date": "2026-11-27",
+      "endDate": "2026-11-27",
+      "start": "11:00",
+      "end": "16:30",
+      "location": "Plymouth",
+      "description": "Make a Black Friday Portfolio Tasting reservation to secure your spot.&nbsp; Club Members &#8211; Double your member savings all weekend. Everyone &#8211; 10% off purchases on Black Friday. Join us during Black Friday weekend to stock up on quality wine, tackle your holiday gift list and enjoy the Casino Mine Ranch property. Win",
+      "url": "https://amadorwine.com/event/black-friday-at-casino-mine-ranch-winery/"
+    },
+    {
+      "id": "f9ef5cee94558c4de5",
+      "title": "13th Annual My Precious Black Friday Sale at Dobra Zemlja Winery",
+      "venue": "Dobra Zemlja Winery",
+      "region": "amador",
+      "category": "other",
+      "date": "2026-11-27",
+      "endDate": "2026-11-29",
+      "start": "11:00",
+      "end": "16:30",
+      "location": "Plymouth, CA",
+      "description": "Shop small this Black Friday and uncork Dobra Zemlja Winery&#8217;s 13th Annual My Precious Black Friday sale. All current releases wines are 40 to 50% off. Enjoy our famous spiked and spiced apple cider during your visit while stocking up for all your holiday wine needs. Contact us at (209) 245-3183 or tastingroom@dobraz.com fo",
+      "url": "https://amadorwine.com/event/13th-annual-my-precious-black-friday-sale-at-dobra-zemlja-winery/"
     },
     {
       "id": "204a1b3356099509d7",
