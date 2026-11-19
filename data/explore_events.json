@@ -1,19 +1,33 @@
 {
-  "updatedAt": "2026-11-18T06:44:06.121704-08:00",
+  "updatedAt": "2026-11-19T06:43:11.107315-08:00",
   "events": [
     {
-      "id": "3a1806160191a3548f",
-      "title": "November Book Club at Ever After Wine",
-      "venue": "Ever After Wine",
+      "id": "383953517a9b1c2cb0",
+      "title": "Live Band Karaoke Night at Christopher Cellars",
+      "venue": "Christopher Cellars",
       "region": "elk-grove",
       "category": "other",
-      "date": "2026-11-18",
-      "endDate": "2026-11-18",
-      "start": "18:30",
-      "end": "20:30",
+      "date": "2026-11-19",
+      "endDate": "2026-11-19",
+      "start": "16:00",
+      "end": "20:00",
       "location": "Elk Grove, CA",
-      "description": "Skin & Bones by Renee Watson Enjoy an optional tasting of four wines paired with the themes and characters of the book.",
-      "url": "https://www.exploreelkgrove.com/events/november-book-club-at-ever-after-wine/"
+      "description": "Forget everything you know about karaoke. This isn't your typical sing-along night.We're welcoming Sacramento-based Karaoke Hero to Christopher Cellars for an",
+      "url": "https://www.exploreelkgrove.com/events/live-band-karaoke-night-at-christopher-cellars/"
+    },
+    {
+      "id": "8244af309deb607d83",
+      "title": "Friday Night with Jon Spivack at Christopher Cellars",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-20",
+      "endDate": "2026-11-20",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "We're bringing Friday Night Live Music indoors with mulled wine warming on the bar, acoustic guitar filling the cellar, and the charm of our historic barn,",
+      "url": "https://www.exploreelkgrove.com/events/friday-night-with-jon-spivack-at-christopher-cellars/"
     },
     {
       "id": "88c6f14090b4f3ebc5",
