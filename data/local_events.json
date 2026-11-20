@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-19T06:43:06.133051-08:00",
+  "updatedAt": "2026-11-20T06:46:26.504005-08:00",
   "events": [
-    {
-      "id": "83372e035e7751f591",
-      "title": "Live Band Karaoke Night with Karaoke Hero",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-19",
-      "endDate": "2026-11-19",
-      "start": "16:00",
-      "end": "20:00",
-      "location": "Elk Grove, CA",
-      "description": "Forget everything you know about karaoke. This isn't your typical sing-along night. We're welcoming Sacramento-based Karaoke Hero to Christopher Cellars for an evening of live band karaoke, where you don't just sing along to your favorite songs, you become the lead singer of the band. With a catalog of more than 700 songs spanning rock, pop, alternative, punk, metal, and more, Karaoke Hero brings the full concert experience to the stage. Pick your favorite song, grab the microphone, and perform alongside a live band of musicians. Not quite ready to sing? There's another way to join the fun. Karaoke Hero also offers an interactive Guitar Hero-style experience, allowing guests to play along with the band using a Guitar Hero controller. Whether you're taking center stage or enjoying the performances from your seat, it's an evening of live music, good company, and plenty of entertainment. Wine, Music & the Cellar We'll open our doors at 4 PM , giving you time to settle in with a glass of wine before the music begins at 5:30 PM. Our collection of small-lot Christopher Cellars wines will be available by the glass, bottle, or tasting flight throughout the evening. The event takes place inside our cellar, creating an intimate setting where guests can enjoy live music, discover new wines, and experience something a little different on a Thursday evening.",
-      "url": "https://www.christophercellars.com/upcoming-events/live-band-karaoke-night-with-karaoke-hero"
-    },
     {
       "id": "28019fd16b335bbaaf",
       "title": "Friday Night with Jon Spivack",
@@ -84,6 +70,20 @@
       "location": "Elk Grove, CA",
       "description": "We're taking Friday Night Live Music inside the cellar with the music a little closer, mulled wine warming on the bar, and the historic barn as our backdrop, we're looking forward to a different kind of Friday at Christopher Cellars. BlueSoul Acoustic joins us from 4:30–7:30 PM, bringing a blend of folk, Americana, indie, and acoustic favorites. Led by Montreal-born musician Terry MacNeill, whose performing career spans more than three decades, BlueSoul draws from artists including Neil Young, Dave Matthews Band, Coldplay, and Oasis. Expect familiar songs, expressive vocals, and the kind of acoustic performance that feels right at home in a smaller setting. Local food truck onsite . At the bar, we'll be pouring our seasonal mulled wine , along with our small-lot wines available by the glass, bottle, or tasting flight. This will be an entirely indoor event, with limited seating available on a first-come, first-served basis. Arrive early, find a spot, and enjoy a Friday evening tucked away in the cellar.",
       "url": "https://www.christophercellars.com/upcoming-events/friday-night-with-bluesoul-acoustics-1"
+    },
+    {
+      "id": "d4884c90d3fbf03274",
+      "title": "Holiday Finds & Wines",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-12-06",
+      "endDate": "2026-12-06",
+      "start": "12:00",
+      "end": "17:00",
+      "location": "Elk Grove, CA",
+      "description": "Get into the holiday spirit at Christopher Cellars! Join us for a festive afternoon of wine, shopping, and supporting local small businesses. We're bringing together a wonderful lineup of local vendors offering everything from books and handcrafted candles to unique gifts and freshly baked treats. It's the perfect opportunity to get a little holiday shopping done, discover something special, and enjoy a glass of wine while you're at it! Meet Our Local Vendors: Wayward Books & More A traveling pop-up bookstore bringing a thoughtfully curated selection of books to communities throughout the Sacramento area. Find your next great read or pick up the perfect gift for the book lover on your list. Luminis Candle Co. Handcrafted in Sacramento, Luminis creates unique candles inspired by pop culture, books, and entertainment. Explore their collection of hand-poured candles, wax melts, fragrances, soaps, and skincare products. Roxy Lane Design Discover beautifully designed gifts featuring original artwork! Shop unique tea towels, gift wrap, gift bags, aprons, and other creative finds that make holiday gifting a little more personal. Sunday's Flour Treat yourself to gourmet, small-batch cookies baked from scratch with quality ingredients. Featuring nostalgic flavors with a creative twist, these delicious treats are perfect for enjoying with a glass of wine or taking home to share. Sip, Shop & Celebrate! We'll have wines available by the glass, bottle, and tasting flight , so grab your friends, browse the vendors, and settle in for a relaxing afternoon at the winery. Skip the crowded shopping centers and spend some time supporting local makers and small businesses this holiday season.",
+      "url": "https://www.christophercellars.com/upcoming-events/holiday-finds-wines"
     },
     {
       "id": "ef28f4b592a9b76a5d",
