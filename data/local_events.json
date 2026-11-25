@@ -1,34 +1,6 @@
 {
-  "updatedAt": "2026-11-24T06:49:30.142659-08:00",
+  "updatedAt": "2026-11-25T06:53:19.440434-08:00",
   "events": [
-    {
-      "id": "b37762b3691eae54f7",
-      "title": "Taco Tuesday",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-24",
-      "endDate": "2026-11-24",
-      "start": "16:00",
-      "end": "20:00",
-      "location": "Elk Grove, CA",
-      "description": "Join us this Tuesday as we bring the energy back to the start of the week. Maiz Mexican Catering will be on-site serving a lineup of bold, authentic flavors. Expect fresh tacos, vibrant salsas, and dishes built to pair perfectly with a glass of wine in hand. It’s casual, flavorful, and exactly how a Tuesday should feel. We’re pouring Sangria on tap! Bring your 1-liter flip top bottle and take home our custom house sangria, crafted to be refreshing, fruit-driven, and perfect for the season or enjoy it by the glass. No reservations needed. Come out, grab some tacos, and settle in with a glass. Tuesdays just found their rhythm.",
-      "url": "https://www.christophercellars.com/upcoming-events/taco-tuesday-3"
-    },
-    {
-      "id": "d9f688e24d1328ef60",
-      "title": "Nouveau November | New Wine Release & $1 Tacos",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-24",
-      "endDate": "2026-11-24",
-      "start": "16:00",
-      "end": "20:00",
-      "location": "Elk Grove, CA",
-      "description": "Christopher Cellars × Maiz Mexican Catering A new vintage, a fresh release, and $1 tacos! What better reason to celebrate? Join us at Christopher Cellars for Nouveau November , a special Taco Tuesday celebrating the release of our 2026 Nouveau Red Blend . Inspired by the tradition of enjoying the first wines of the harvest, this limited release captures the fresh, vibrant character of the 2026 vintage. Introducing Our 2026 Nouveau Red Blend Crafted to celebrate the newest harvest, our Nouveau is a lively, fruit-forward red blend made with: 70% Carbonic Field Blend: Barbera, Sangiovese, Montepulciano, and Aglianico 30% Cinsault Rosé: Bringing brightness, delicate red fruit, and a refreshing finish Unfined and unfiltered, this wine showcases juicy red fruit, bright acidity, soft tannins, and an easy-drinking personality. Light, fresh, and delicious served slightly chilled, it’s a fun expression of the 2026 harvest. Taco Tuesday Meets Nouveau November We’re teaming up with Maiz Mexican Catering to celebrate with $1 tacos all evening! Enjoy delicious tacos alongside our newest wine release. From savory carne asada and tender carnitas to flavorful mushroom tacos with roasted salsa, these bold flavors are a perfect match for the bright fruit and refreshing character of our Nouveau. Come hungry, bring your friends, and join us for an evening of $1 tacos, great wine, and a celebration of the 2026 harvest!",
-      "url": "https://www.christophercellars.com/upcoming-events/nouveau-november-new-wine-release-1-tacos"
-    },
     {
       "id": "b0720a89d26754c1f2",
       "title": "R&B Night",
@@ -42,6 +14,20 @@
       "location": "Elk Grove, CA",
       "description": "Every Wednesday | 4–8 PM DJ Torrey Tee | 5:30–7:30 PM Make Wednesday nights a little more interesting at Christopher Cellars with R&B Night featuring our resident DJ, Torrey Tee. Join us inside the cellar for an evening of R&B, Hip-Hop, Bay Area classics, and throwbacks, paired with small-lot Christopher Cellars wines and great local food.",
       "url": "https://www.christophercellars.com/upcoming-events/rb-night-1-j2t4l-rrcgw"
+    },
+    {
+      "id": "816c5068e0ca037779",
+      "title": "Live Music with Grey Finch",
+      "venue": "Christopher Cellars",
+      "region": "elk-grove",
+      "category": "other",
+      "date": "2026-11-27",
+      "endDate": "2026-11-27",
+      "start": "16:00",
+      "end": "20:00",
+      "location": "Elk Grove, CA",
+      "description": "We're bringing Friday Night Live Music indoors, with acoustic country music filling the cellar, our small-lot wines flowing, and the intimate atmosphere of the winery setting the scene for a relaxing Friday evening at Christopher Cellars. Live Music with Grey Finch | 4:30–7:30 PM Joining us this Friday is Grey Finch, a Sacramento-based country artist originally from Georgia who brings his Southern roots to the Northern California music scene. With his acoustic guitar, soulful country vocals, and laid-back performance style, Grey captures the genuine spirit of country music. His Southern influence and stripped-down acoustic sound lend themselves beautifully to the intimate setting of our cellar. For those who appreciate authentic country music, heartfelt storytelling, and the simplicity of a live acoustic performance, Grey brings a sound and energy that make for an inviting evening at the winery. Our collection of small-lot Christopher Cellars wines will be available by the glass, bottle, or tasting flight throughout the evening. This will be an entirely indoor event, with limited seating available on a first-come, first-served basis. Arrive early, settle in with a glass of wine, and enjoy an evening of live country music in the cellar.",
+      "url": "https://www.christophercellars.com/upcoming-events/live-music-with-grey-finch"
     },
     {
       "id": "1e3f1a4093ac02a133",

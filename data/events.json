@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-24T14:49:28.721340+00:00",
+  "updatedAt": "2026-11-25T14:53:18.083579+00:00",
   "events": [
-    {
-      "id": "9873e35b764461ca6e",
-      "title": "Tapas Tuesday at Krissie Vineyards",
-      "venue": "Krissie Vineyards",
-      "region": "amador",
-      "category": "other",
-      "date": "2026-11-24",
-      "endDate": "2026-11-24",
-      "start": "15:00",
-      "end": "19:00",
-      "location": "Plymouth",
-      "description": "Sip. Snack. Repeat. Join us every Tuesday from 3 to 7 PM for wines by the glass or bottle, paired with delicious small bites.&nbsp; Grab a friend, pull up a seat and make Tuesday the best day of the week.",
-      "url": "https://amadorwine.com/event/tapas-tuesday-at-krissie-vineyards-3/"
-    },
     {
       "id": "acade65feb917eb13b",
       "title": "Black Friday at Iron Hub",
@@ -98,6 +84,20 @@
       "location": "Plymouth, CA",
       "description": "Come join us&nbsp; Black &nbsp;Friday November 27th &nbsp;for our new release ev ent.&nbsp; Taste our newly released&nbsp; 2023 Hangtree Zinfandel, 2023 Sorella (67% Syrah 33% Primitivo) and 2023 Reserve Barbera. It&#8217;s&nbsp; &#8220; Black &nbsp;Label&nbsp; Black &nbsp;Friday&#8217; &nbsp;and we have big discounts on selecte",
       "url": "https://amadorwine.com/event/dillian-wines-black-friday-release-and-sales/"
+    },
+    {
+      "id": "ab15f7097eb095b432",
+      "title": "Black Friday at Rancho Victoria | 40% Off Select Wines | No Minimums",
+      "venue": "Rancho Victoria",
+      "region": "amador",
+      "category": "other",
+      "date": "2026-11-27",
+      "endDate": "2026-11-27",
+      "start": "11:00",
+      "end": "17:00",
+      "location": "Plymouth, CA",
+      "description": "Black Friday at Rancho Victoria | 40% Off Select Wines | No Minimums Friday, November 27, 2026 Shop in the Rancho Victoria tasting room at 16920 Greilich Road in Plymouth, CA, or shop online . Most wineries reserve their biggest discounts for customers buying an entire case. At Rancho Victoria, our biggest sale of the year start",
+      "url": "https://amadorwine.com/event/black-friday-at-rancho-victoria-40-off-select-wines-no-minimums/"
     },
     {
       "id": "2d7a718dba4d47c533",
