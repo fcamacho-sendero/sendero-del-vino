@@ -1,20 +1,6 @@
 {
-  "updatedAt": "2026-11-25T06:53:19.440434-08:00",
+  "updatedAt": "2026-11-26T14:45:23.759018-08:00",
   "events": [
-    {
-      "id": "b0720a89d26754c1f2",
-      "title": "R&B Night",
-      "venue": "Christopher Cellars",
-      "region": "elk-grove",
-      "category": "other",
-      "date": "2026-11-25",
-      "endDate": "2026-11-25",
-      "start": "16:00",
-      "end": "21:00",
-      "location": "Elk Grove, CA",
-      "description": "Every Wednesday | 4–8 PM DJ Torrey Tee | 5:30–7:30 PM Make Wednesday nights a little more interesting at Christopher Cellars with R&B Night featuring our resident DJ, Torrey Tee. Join us inside the cellar for an evening of R&B, Hip-Hop, Bay Area classics, and throwbacks, paired with small-lot Christopher Cellars wines and great local food.",
-      "url": "https://www.christophercellars.com/upcoming-events/rb-night-1-j2t4l-rrcgw"
-    },
     {
       "id": "816c5068e0ca037779",
       "title": "Live Music with Grey Finch",
